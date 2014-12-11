@@ -16,6 +16,10 @@ public class TLV {
      * beginning */
     public static final int SMP1Q = 0x0007;
 
+    /* these are prototype TLVs for sending data, so they have big numbers until they are official */
+    public static final int DATA_REQUEST = 0x100;
+    public static final int DATA_RESPONSE = 0x101;
+
     public TLV(int type, byte[] value) {
         this.setType(type);
         this.setValue(value);

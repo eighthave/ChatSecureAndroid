@@ -1,7 +1,6 @@
 package info.guardianproject.otr;
 
 import info.guardianproject.otr.OtrDataHandler.Transfer;
-import info.guardianproject.otr.app.im.R;
 import info.guardianproject.otr.app.im.engine.ChatSession;
 import info.guardianproject.otr.app.im.engine.ImErrorInfo;
 import info.guardianproject.otr.app.im.engine.Message;
@@ -18,8 +17,6 @@ import net.java.otr4j.session.TLV;
 
 public class OtrChatListener implements MessageListener {
 
-    public static final int TLV_DATA_REQUEST = 0x100;
-    public static final int TLV_DATA_RESPONSE = 0x101;
     private OtrChatManager mOtrChatManager;
     private MessageListener mMessageListener;
 
@@ -66,9 +63,9 @@ public class OtrChatListener implements MessageListener {
         }
 
         for (TLV tlv : tlvs) {
-            if (tlv.getType() == TLV_DATA_REQUEST) {
+            if (tlv.getType() == TLV.DATA_REQUEST) {
                 mMessageListener.onIncomingDataRequest(session, msg, tlv.getValue());
-            } else if (tlv.getType() == TLV_DATA_RESPONSE) {
+            } else if (tlv.getType() == TLV.DATA_RESPONSE) {
                 mMessageListener.onIncomingDataResponse(session, msg, tlv.getValue());
             }
         }

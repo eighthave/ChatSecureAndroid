@@ -6,8 +6,6 @@
 
 package net.java.otr4j;
 
-import info.guardianproject.otr.OtrChatListener;
-
 import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.Hashtable;
@@ -89,7 +87,7 @@ public class OtrEngineImpl implements OtrEngine {
         List<TLV> tlvs = null;
         if (data != null) {
             tlvs = new ArrayList<TLV>(1);
-            tlvs.add(new TLV(isResponse ? OtrChatListener.TLV_DATA_RESPONSE : OtrChatListener.TLV_DATA_REQUEST, data));
+            tlvs.add(new TLV(isResponse ? TLV.DATA_RESPONSE : TLV.DATA_REQUEST, data));
         }
         return this.getSession(sessionID).transformSending(msgText, tlvs);
     }
