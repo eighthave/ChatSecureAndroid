@@ -23,4 +23,6 @@ public interface SerializationConstants {
 
     public static final int DATA_LEN = TYPE_LEN_INT;
     public static final int TLV_LEN = TYPE_LEN_SHORT;
+
+    public static final String CommonRequest = " Your contact is requesting to start an encrypted chat. Please install ChatSecure (Android, iPhone and iPad) from https://get.chatsecure.org/ or other encryption-capable messaging app.";
 }

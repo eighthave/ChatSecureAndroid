@@ -5,8 +5,6 @@
  */
 package net.java.otr4j.io;
 
-import info.guardianproject.otr.OtrConstants;
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -152,7 +150,7 @@ public class SerializationUtils {
 
                 writer.write(SerializationConstants.HEAD_QUERY_Q);
             }
-            writer.write(OtrConstants.CommonRequest);
+            writer.write(SerializationConstants.CommonRequest);
             break;
         case AbstractEncodedMessage.MESSAGE_DHKEY:
         case AbstractEncodedMessage.MESSAGE_REVEALSIG:
