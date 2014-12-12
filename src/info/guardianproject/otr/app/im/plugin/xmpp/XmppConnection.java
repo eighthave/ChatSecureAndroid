@@ -32,7 +32,6 @@ import java.io.IOException;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
-import java.security.SecureRandom;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 import java.util.ArrayList;
@@ -116,6 +115,7 @@ import org.jivesoftware.smackx.provider.XHTMLExtensionProvider;
 import org.jivesoftware.smackx.search.UserSearch;
 
 import android.accounts.AccountManager;
+import android.annotation.SuppressLint;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.database.Cursor;
@@ -161,11 +161,6 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
 
     private boolean mIsGoogleAuth = false;
 
-    private final static String SSLCONTEXT_TYPE = "TLS";
-
-    private static SSLContext sslContext;
-    private Context aContext;
-
     private final static String IS_GOOGLE = "google";
 
     private final static int SOTIMEOUT = 60000;
@@ -195,8 +190,6 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
         synchronized (XmppConnection.class) {
             mGlobalId = mGlobalCount++;
         }
-
-        aContext = context;
 
         Debug.onConnectionStart();
 
@@ -995,6 +988,20 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
 
     }
 
+    @SuppressLint("TrulyRandom")
+    static SSLContext getSslContext(X509TrustManager trustManager)
+            throws NoSuchAlgorithmException, KeyManagementException {
+        SSLContext sslContext = SSLContext.getInstance("TLS");
+        sslContext.init(null, new javax.net.ssl.TrustManager[] { trustManager },
+                new java.security.SecureRandom());
+        if (Build.VERSION.SDK_INT >= 20) {
+            sslContext.getDefaultSSLParameters().setCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES_API_20);
+        } else {
+            sslContext.getDefaultSSLParameters().setCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES);
+        }
+        return sslContext;
+    }
+
     ConnectionConfiguration getConnectionConfiguration(Imps.ProviderSettings.QueryMap providerSettings, String userName) throws NoSuchAlgorithmException, KeyManagementException, XMPPException  {
         return getConnectionConfiguration(providerSettings.getMap(), userName);
     }
@@ -1094,7 +1101,6 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
                 config = new ConnectionConfiguration(server, serverPort, domain, mProxyInfo);
         }
 
-
         config.setDebuggerEnabled(Debug.DEBUG_ENABLED);
 
         config.setSASLAuthenticationEnabled(true);
@@ -1113,84 +1119,39 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
         SASLAuthentication.supportSASLMechanism("PLAIN", 1);
         SASLAuthentication.supportSASLMechanism("DIGEST-MD5", 2);
 
-
         if (requireTls) {
-
             MemorizingTrustManager trustManager = ImApp.sImApp.getTrustManager();
+            SSLContext sslContext = getSslContext(trustManager);
+            sslContext.getDefaultSSLParameters().getCipherSuites();
 
-            if (sslContext == null)
-            {
-
-                sslContext = SSLContext.getInstance(SSLCONTEXT_TYPE);
-                SecureRandom secureRandom = new java.security.SecureRandom();
-                sslContext.init(null, new javax.net.ssl.TrustManager[] { trustManager },
-                        secureRandom);
-
-                sslContext.getDefaultSSLParameters().getCipherSuites();
-
-                if (Build.VERSION.SDK_INT >= 20) {
-
-                    sslContext.getDefaultSSLParameters().setCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES_API_20);
-
-                }
-                else
-                {
-                    sslContext.getDefaultSSLParameters().setCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES);
-                }
-
-
-            }
-
-
-            int currentapiVersion = android.os.Build.VERSION.SDK_INT;
-            if (currentapiVersion >= 16){
+            if (Build.VERSION.SDK_INT >= 16) {
                 // Enable TLS1.2 and TLS1.1 on supported versions of android
                 // http://stackoverflow.com/questions/16531807/android-client-server-on-tls-v1-2
 
                //mConfig.setEnabledProtocols(new String[] { "TLSv1.2", "TLSv1.1", "TLSv1" });
                 sslContext.getDefaultSSLParameters().setProtocols(new String[] { "TLSv1.2", "TLSv1.1", "TLSv1" });
-
             }
 
-            if (currentapiVersion >= android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH){
+            if (Build.VERSION.SDK_INT >= 14) {
                 config.setEnabledCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES);
             }
 
-
             HostnameVerifier hv = trustManager.wrapHostnameVerifier(HttpsURLConnection.getDefaultHostnameVerifier());
-
             config.setHostnameVerifier(hv);
             config.setCustomSSLContext(sslContext);
-
             config.setSecurityMode(SecurityMode.required);
-
             config.setVerifyChainEnabled(true);
             config.setVerifyRootCAEnabled(true);
             config.setExpiredCertificatesCheckEnabled(true);
-
             config.setNotMatchingDomainCheckEnabled(true);
-
             config.setSelfSignedCertificateEnabled(false);
-
             config.setCallbackHandler(this);
 
         } else {
             // if it finds a cert, still use it, but don't check anything since
             // TLS errors are not expected by the user
             config.setSecurityMode(SecurityMode.enabled);
-
-            if (sslContext == null)
-            {
-                sslContext = SSLContext.getInstance(SSLCONTEXT_TYPE);
-
-                SecureRandom mSecureRandom = new java.security.SecureRandom();
-
-                sslContext.init(null, new javax.net.ssl.TrustManager[] {  getDummyTrustManager () },
-                        mSecureRandom);
-
-                sslContext.getDefaultSSLParameters().setCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES);
-            }
-            config.setCustomSSLContext(sslContext);
+            config.setCustomSSLContext(getSslContext(getDummyTrustManager()));
 
             if (!allowPlainAuth)
                 SASLAuthentication.unsupportSASLMechanism("PLAIN");
@@ -1320,7 +1281,7 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
 
         initPacketProcessor();
         initPresenceProcessor ();
-        
+
         ConnectionListener connectionListener = new ConnectionListener() {
             /**
              * Called from smack when connect() is fully successful
