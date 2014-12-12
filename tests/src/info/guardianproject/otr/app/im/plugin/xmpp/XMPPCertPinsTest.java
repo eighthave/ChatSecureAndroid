@@ -93,6 +93,45 @@ public class XMPPCertPinsTest extends AndroidTestCase {
         return config;
     }
 
+    private class ShouldSucceedConnectionListener implements ConnectionListener {
+
+        private final String domain;
+        public ShouldSucceedConnectionListener(String domain) {
+            this.domain = domain;
+        }
+
+        @Override
+        public void reconnectionSuccessful() {
+            Log.i(TAG, "reconnectionSuccessful " + domain);
+            assertTrue(false);
+        }
+
+        @Override
+        public void reconnectionFailed(Exception e) {
+            Log.i(TAG, "reconnectionSuccessful "  + domain);
+            e.printStackTrace();
+            assertTrue(false);
+        }
+
+        @Override
+        public void reconnectingIn(int arg0) {
+            Log.i(TAG, "reconnectingIn " + arg0 + " " + domain);
+            assertTrue(false);
+        }
+
+        @Override
+        public void connectionClosedOnError(Exception e) {
+            Log.i(TAG, "connectionClosedOnError " + domain);
+            e.printStackTrace();
+            assertTrue(false);
+        }
+
+        @Override
+        public void connectionClosed() {
+            Log.i(TAG, "connectionClosed " + domain);
+        }
+    }
+
     public void testDomainsWithPins() {
         try {
             for (String domain : domainsWithPins) {
@@ -104,41 +143,11 @@ public class XMPPCertPinsTest extends AndroidTestCase {
                 }, secureRandom);
                 config.setCustomSSLContext(sslContext);
                 connection = new XMPPConnection(config);
-                connection.addConnectionListener(new ConnectionListener() {
-
-                    @Override
-                    public void reconnectionSuccessful() {
-                        Log.i(TAG, "reconnectionSuccessful");
-                        assertTrue(false);
-                    }
-
-                    @Override
-                    public void reconnectionFailed(Exception e) {
-                        Log.i(TAG, "reconnectionSuccessful");
-                        e.printStackTrace();
-                        assertTrue(false);
-                    }
-
-                    @Override
-                    public void reconnectingIn(int arg0) {
-                        Log.i(TAG, "reconnectingIn " + arg0);
-                        assertTrue(false);
-                    }
-
-                    @Override
-                    public void connectionClosedOnError(Exception e) {
-                        Log.i(TAG, "connectionClosedOnError");
-                        e.printStackTrace();
-                        assertTrue(false);
-                    }
-
-                    @Override
-                    public void connectionClosed() {
-                        Log.i(TAG, "connectionClosed");
-                    }
-                });
+                connection.addConnectionListener(new ShouldSucceedConnectionListener(domain));
                 connection.connect();
                 assertTrue(connection.isConnected());
+                assertTrue(connection.isSecureConnection());
+                assertTrue(connection.isUsingTLS());
             }
         } catch (KeyManagementException e) {
             Log.e(TAG, "KeyManagementException");
