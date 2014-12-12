@@ -32,7 +32,6 @@ public class XMPPCertPinsTest extends AndroidTestCase {
 
     SystemKeyStore systemKeyStore;
     PinningTrustManager pinningTrustManager;
-    SSLContext sslContext;
     SecureRandom secureRandom;
     XMPPConnection connection;
     String domainsWithPins[];
@@ -51,12 +50,6 @@ public class XMPPCertPinsTest extends AndroidTestCase {
         pinningTrustManager = new PinningTrustManager(systemKeyStore,
                 XMPPCertPins.getPinList(), 0);
         secureRandom = new java.security.SecureRandom();
-        try {
-            sslContext = SSLContext.getInstance("TLS");
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-            assert true;
-        }
         ArrayList<String> domains = new ArrayList<String>(
                 Arrays.asList(c.getResources().getStringArray(R.array.account_domains)));
         domains.add(AccountActivity.DEFAULT_SERVER_FACEBOOK);
@@ -74,6 +67,16 @@ public class XMPPCertPinsTest extends AndroidTestCase {
             connection.disconnect();
             connection = null;
         }
+    }
+
+    private SSLContext getSSLContext(String protocol) {
+        try {
+            return SSLContext.getInstance(protocol);
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+            assertTrue(false);
+        }
+        return null;
     }
 
     private ConnectionConfiguration getConfig(String domain) throws KeyManagementException {
@@ -95,6 +98,7 @@ public class XMPPCertPinsTest extends AndroidTestCase {
             for (String domain : domainsWithPins) {
                 Log.i(TAG, "TESTING DOMAINS WITH PINS: " + domain);
                 ConnectionConfiguration config = getConfig(domain);
+                SSLContext sslContext = getSSLContext("TLS");
                 sslContext.init(null, new javax.net.ssl.TrustManager[] {
                         pinningTrustManager
                 }, secureRandom);
@@ -149,24 +153,32 @@ public class XMPPCertPinsTest extends AndroidTestCase {
 
     public void testSettingCipherSuites() {
         try {
+            SSLContext sslContext = getSSLContext("TLS");
             sslContext.init(null, new javax.net.ssl.TrustManager[] {
                     pinningTrustManager
             }, secureRandom);
-
-            sslContext.getDefaultSSLParameters().getCipherSuites();
-
-            if (Build.VERSION.SDK_INT >= 20) {
-                sslContext.getDefaultSSLParameters().setCipherSuites(
-                        XMPPCertPins.SSL_IDEAL_CIPHER_SUITES_API_20);
-            }
-            else
-            {
-                sslContext.getDefaultSSLParameters().setCipherSuites(
-                        XMPPCertPins.SSL_IDEAL_CIPHER_SUITES);
+            for (String domain : domainsWithPins) {
+                Log.i(TAG, "TESTING SETTING CIPHER SUITES: " + domain);
+                ConnectionConfiguration config = getConfig(domain);
+                config.setCustomSSLContext(sslContext);
+                if (Build.VERSION.SDK_INT >= 20) {
+                    config.setEnabledCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES_API_20);
+                } else {
+                    config.setEnabledCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES);
+                }
+                connection = new XMPPConnection(config);
+                connection.addConnectionListener(new ShouldSucceedConnectionListener(domain));
+                connection.connect();
+                assertTrue(connection.isConnected());
+                assertTrue(connection.isSecureConnection());
+                assertTrue(connection.isUsingTLS());
             }
         } catch (KeyManagementException e) {
             e.printStackTrace();
-            assert true;
+            assertTrue(false);
+        } catch (XMPPException e) {
+            e.printStackTrace();
+            assertTrue(false);
         }
     }
 }
