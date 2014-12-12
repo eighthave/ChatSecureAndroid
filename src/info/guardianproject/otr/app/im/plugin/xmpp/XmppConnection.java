@@ -22,6 +22,7 @@ import info.guardianproject.otr.app.im.engine.Message;
 import info.guardianproject.otr.app.im.engine.Presence;
 import info.guardianproject.otr.app.im.plugin.xmpp.auth.GTalkOAuth2;
 import info.guardianproject.otr.app.im.provider.Imps;
+import info.guardianproject.otr.app.im.provider.Imps.ProviderSettings;
 import info.guardianproject.otr.app.im.provider.ImpsErrorInfo;
 import info.guardianproject.util.DNSUtil;
 import info.guardianproject.util.Debug;
@@ -138,13 +139,12 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
 
     // watch out, this is a different XMPPConnection class than XmppConnection! ;)
     // Synchronized by executor thread
-    private MyXMPPConnection mConnection;
+    private XMPPConnection mConnection;
     private XmppStreamHandler mStreamHandler;
 
     private Roster mRoster;
 
     private XmppChatSessionManager mSessionManager;
-    private ConnectionConfiguration mConfig;
 
     // True if we are in the process of reconnecting.  Reconnection is retried once per heartbeat.
     // Synchronized by executor thread.
@@ -215,6 +215,7 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
         ServiceDiscoveryManager.setIdentityType("phone");
     }
 
+    @Override
     public void initUser(long providerId, long accountId) throws ImException
     {
         ContentResolver contentResolver = mContext.getContentResolver();
@@ -299,7 +300,7 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
 
     public void sendPacket(final org.jivesoftware.smack.packet.Packet packet) {
         qPacket.add(packet);
-       
+
     }
 
 
@@ -925,6 +926,7 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
     }
 
     // TODO shouldn't setProxy be handled in Imps/settings?
+    @Override
     public void setProxy(String type, String host, int port) {
         if (type == null) {
             mProxyInfo = ProxyInfo.forNoProxy();
@@ -964,14 +966,11 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
 
         mResource = providerSettings.getXmppResource();
 
-        //disable compression based on statement by Ge0rg
-        mConfig.setCompressionEnabled(false);
-
         if (mConnection.isConnected())
         {
-            
+
             mConnection.login(mUsername, mPassword, mResource);
-            
+
             String fullJid = mConnection.getUser();
             XmppAddress xa = new XmppAddress(fullJid);
             mUser = new Contact(xa, xa.getUser());
@@ -996,33 +995,30 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
 
     }
 
+    ConnectionConfiguration getConnectionConfiguration(Imps.ProviderSettings.QueryMap providerSettings, String userName) throws NoSuchAlgorithmException, KeyManagementException, XMPPException  {
+        return getConnectionConfiguration(providerSettings.getMap(), userName);
+    }
 
-    // Runs in executor thread
-    private void initConnection(Imps.ProviderSettings.QueryMap providerSettings, String userName) throws NoSuchAlgorithmException, KeyManagementException, XMPPException  {
+    ConnectionConfiguration getConnectionConfiguration(Map<String, Object> providerSettingsMap, String userName) throws NoSuchAlgorithmException, KeyManagementException, XMPPException  {
+        ConnectionConfiguration config;
 
+        Boolean allowPlainAuth = (Boolean) providerSettingsMap.get(ProviderSettings.ALLOW_PLAIN_AUTH);
+        Boolean requireTls = (Boolean) providerSettingsMap.get(ProviderSettings.REQUIRE_TLS);
+        Boolean doDnsSrv = (Boolean) providerSettingsMap.get(ProviderSettings.DO_DNS_SRV);
+        Boolean tlsCertVerify = (Boolean) providerSettingsMap.get(ProviderSettings.TLS_CERT_VERIFY);
+        Boolean useTor = (Boolean) providerSettingsMap.get(ProviderSettings.USE_TOR);
 
-        boolean allowPlainAuth = providerSettings.getAllowPlainAuth();
-        boolean requireTls = providerSettings.getRequireTls();
-        boolean doDnsSrv = providerSettings.getDoDnsSrv();
-        boolean tlsCertVerify = providerSettings.getTlsCertVerify();
-
-        boolean useSASL = true;//!allowPlainAuth;
-
-        String domain = providerSettings.getDomain();
-
-        mPriority = providerSettings.getXmppResourcePrio();
-        int serverPort = providerSettings.getPort();
-
-        String server = providerSettings.getServer();
-        if ("".equals(server))
+        String domain = (String) providerSettingsMap.get(ProviderSettings.DOMAIN);
+        Integer serverPort = (Integer)providerSettingsMap.get(ProviderSettings.PORT);
+        String server = (String) providerSettingsMap.get(ProviderSettings.SERVER);
+        if (TextUtils.isEmpty(server))
             server = null;
 
         debug(TAG, "TLS required? " + requireTls);
         debug(TAG, "cert verification? " + tlsCertVerify);
 
-        if (providerSettings.getUseTor()) {
-            setProxy(TorProxyInfo.PROXY_TYPE, TorProxyInfo.PROXY_HOST,
-                    TorProxyInfo.PROXY_PORT);
+        if (useTor) {
+            setProxy(TorProxyInfo.PROXY_TYPE, TorProxyInfo.PROXY_HOST, TorProxyInfo.PROXY_PORT);
         }
         else
         {
@@ -1077,9 +1073,9 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
                     + domain + ", mProxyInfo);");
 
             if (mProxyInfo == null)
-                mConfig = new ConnectionConfiguration(domain, serverPort);
+                config = new ConnectionConfiguration(domain, serverPort);
             else
-                mConfig = new ConnectionConfiguration(domain, serverPort, mProxyInfo);
+                config = new ConnectionConfiguration(domain, serverPort, mProxyInfo);
 
             //server = domain;
 
@@ -1093,15 +1089,15 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
               //  serviceName = server;
 
             if (mProxyInfo == null)
-                mConfig = new ConnectionConfiguration(server, serverPort, domain);
+                config = new ConnectionConfiguration(server, serverPort, domain);
             else
-                mConfig = new ConnectionConfiguration(server, serverPort, domain, mProxyInfo);
+                config = new ConnectionConfiguration(server, serverPort, domain, mProxyInfo);
         }
 
 
-        mConfig.setDebuggerEnabled(Debug.DEBUG_ENABLED);
+        config.setDebuggerEnabled(Debug.DEBUG_ENABLED);
 
-        mConfig.setSASLAuthenticationEnabled(useSASL);
+        config.setSASLAuthenticationEnabled(true);
 
         // Android has no support for Kerberos or GSSAPI, so disable completely
         SASLAuthentication.unregisterSASLMechanism("KERBEROS_V4");
@@ -1157,31 +1153,31 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
             }
 
             if (currentapiVersion >= android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH){
-                mConfig.setEnabledCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES);
+                config.setEnabledCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES);
             }
 
 
             HostnameVerifier hv = trustManager.wrapHostnameVerifier(HttpsURLConnection.getDefaultHostnameVerifier());
 
-            mConfig.setHostnameVerifier(hv);
-            mConfig.setCustomSSLContext(sslContext);
+            config.setHostnameVerifier(hv);
+            config.setCustomSSLContext(sslContext);
 
-            mConfig.setSecurityMode(SecurityMode.required);
+            config.setSecurityMode(SecurityMode.required);
 
-            mConfig.setVerifyChainEnabled(true);
-            mConfig.setVerifyRootCAEnabled(true);
-            mConfig.setExpiredCertificatesCheckEnabled(true);
+            config.setVerifyChainEnabled(true);
+            config.setVerifyRootCAEnabled(true);
+            config.setExpiredCertificatesCheckEnabled(true);
 
-            mConfig.setNotMatchingDomainCheckEnabled(true);
+            config.setNotMatchingDomainCheckEnabled(true);
 
-            mConfig.setSelfSignedCertificateEnabled(false);
+            config.setSelfSignedCertificateEnabled(false);
 
-            mConfig.setCallbackHandler(this);
+            config.setCallbackHandler(this);
 
         } else {
             // if it finds a cert, still use it, but don't check anything since
             // TLS errors are not expected by the user
-            mConfig.setSecurityMode(SecurityMode.enabled);
+            config.setSecurityMode(SecurityMode.enabled);
 
             if (sslContext == null)
             {
@@ -1194,25 +1190,42 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
 
                 sslContext.getDefaultSSLParameters().setCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES);
             }
-            mConfig.setCustomSSLContext(sslContext);
+            config.setCustomSSLContext(sslContext);
 
             if (!allowPlainAuth)
                 SASLAuthentication.unsupportSASLMechanism("PLAIN");
 
-            mConfig.setVerifyChainEnabled(false);
-            mConfig.setVerifyRootCAEnabled(false);
-            mConfig.setExpiredCertificatesCheckEnabled(false);
-            mConfig.setNotMatchingDomainCheckEnabled(false);
-            mConfig.setSelfSignedCertificateEnabled(true);
+            config.setVerifyChainEnabled(false);
+            config.setVerifyRootCAEnabled(false);
+            config.setExpiredCertificatesCheckEnabled(false);
+            config.setNotMatchingDomainCheckEnabled(false);
+            config.setSelfSignedCertificateEnabled(true);
         }
 
         // Don't use smack reconnection - not reliable
-        mConfig.setReconnectionAllowed(false);
-        mConfig.setSendPresence(true);
+        config.setReconnectionAllowed(false);
+        config.setSendPresence(true);
 
-        mConfig.setRosterLoadedAtLogin(true);
+        config.setRosterLoadedAtLogin(true);
 
-        mConnection = new MyXMPPConnection(mConfig);
+        /* smack 3.x is either enabling compression at the wrong moment or has
+         * a race condition; one way or the other it causes XML corruption.
+         * Besides, after CRIME and BEAST it is not any more safe to do
+         * compression at all:
+        https://blog.thijsalkema.de/me/blog//blog/2014/08/07/https-attacks-and-xmpp-2-crime-and-breach/ */
+        config.setCompressionEnabled(false);
+
+        return config;
+    }
+
+    XMPPConnection getConnection(ConnectionConfiguration config) {
+        return new MyXMPPConnection(config);
+    }
+
+    // Runs in executor thread
+    private void initConnection(Imps.ProviderSettings.QueryMap providerSettings, String userName) throws NoSuchAlgorithmException, KeyManagementException, XMPPException  {
+        mConnection = getConnection(getConnectionConfiguration(providerSettings, userName));
+        mPriority = providerSettings.getXmppResourcePrio();
 
         //debug(TAG,"is secure connection? " + mConnection.isSecureConnection());
         //debug(TAG,"is using TLS? " + mConnection.isUsingTLS());
@@ -1400,7 +1413,7 @@ public class XmppConnection extends ImConnection implements CallbackHandler {
 
         mConnection.addConnectionListener(connectionListener);
 
-        mStreamHandler = new XmppStreamHandler(mConnection, connectionListener);
+        mStreamHandler = new XmppStreamHandler((MyXMPPConnection)mConnection, connectionListener);
 
         for (int i = 0; i < 3; i++)
         {
