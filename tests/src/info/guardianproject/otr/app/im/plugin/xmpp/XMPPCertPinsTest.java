@@ -34,6 +34,7 @@ public class XMPPCertPinsTest extends AndroidTestCase {
     PinningTrustManager pinningTrustManager;
     SecureRandom secureRandom;
     XMPPConnection connection;
+    String recommendedDomains[];
     String domainsWithPins[];
     String domainsWithoutPins[] = {
             // signed by cacert.org, can't be pinned with AndroidPinning
@@ -50,8 +51,8 @@ public class XMPPCertPinsTest extends AndroidTestCase {
         pinningTrustManager = new PinningTrustManager(systemKeyStore,
                 XMPPCertPins.getPinList(), 0);
         secureRandom = new java.security.SecureRandom();
-        ArrayList<String> domains = new ArrayList<String>(
-                Arrays.asList(c.getResources().getStringArray(R.array.account_domains)));
+        recommendedDomains = c.getResources().getStringArray(R.array.account_domains);
+        ArrayList<String> domains = new ArrayList<String>(Arrays.asList(recommendedDomains));
         domains.add(AccountActivity.DEFAULT_SERVER_FACEBOOK);
         // this one seems to fail a lot of tests
         //domains.add(AccountActivity.DEFAULT_SERVER_JABBERORG);
@@ -138,6 +139,36 @@ public class XMPPCertPinsTest extends AndroidTestCase {
                 Log.i(TAG, "TESTING DOMAINS WITH PINS: " + domain);
                 ConnectionConfiguration config = getConfig(domain);
                 SSLContext sslContext = getSSLContext("TLS");
+                sslContext.init(null, new javax.net.ssl.TrustManager[] {
+                        pinningTrustManager
+                }, secureRandom);
+                config.setCustomSSLContext(sslContext);
+                connection = new XMPPConnection(config);
+                connection.addConnectionListener(new ShouldSucceedConnectionListener(domain));
+                connection.connect();
+                assertTrue(connection.isConnected());
+                assertTrue(connection.isSecureConnection());
+                assertTrue(connection.isUsingTLS());
+            }
+        } catch (KeyManagementException e) {
+            Log.e(TAG, "KeyManagementException");
+            e.printStackTrace();
+            assertTrue(false);
+        } catch (XMPPException e) {
+            Log.e(TAG, "XMPPException");
+            e.printStackTrace();
+            assertTrue(false);
+        }
+    }
+
+    public void testRecommendedDomainsWithTLSV12() {
+        if (Build.VERSION.SDK_INT < 16) // TLS v1.2 added in android-16
+            return;
+        try {
+            for (String domain : recommendedDomains) {
+                Log.i(TAG, "TESTING RECOMMENDED DOMAINS USING TLS v1.2: " + domain);
+                ConnectionConfiguration config = getConfig(domain);
+                SSLContext sslContext = getSSLContext("TLSv1.2");
                 sslContext.init(null, new javax.net.ssl.TrustManager[] {
                         pinningTrustManager
                 }, secureRandom);
