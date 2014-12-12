@@ -16,11 +16,6 @@
 
 package info.guardianproject.otr.app.im.provider;
 
-import info.guardianproject.otr.app.im.app.ImApp;
-
-import java.util.HashMap;
-import java.util.UUID;
-
 import android.content.ContentQueryMap;
 import android.content.ContentResolver;
 import android.content.ContentUris;
@@ -32,6 +27,12 @@ import android.net.Uri.Builder;
 import android.os.Handler;
 import android.provider.BaseColumns;
 import android.util.Log;
+
+import info.guardianproject.otr.app.im.app.ImApp;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 
 /**
  * The IM provider stores all information about roster contacts, chat messages,
@@ -839,6 +840,7 @@ public class Imps {
          * @param username the user name of the contact.
          * @return the Uri
          */
+        @Deprecated
         public static final Uri getContentUriByContact(long accountId, String username) {
             Uri.Builder builder = CONTENT_URI_MESSAGES_BY_ACCOUNT_AND_CONTACT.buildUpon();
             ContentUris.appendId(builder, accountId);
@@ -892,6 +894,7 @@ public class Imps {
          * @param username the user name of the contact.
          * @return the Uri
          */
+        @Deprecated
         public static final Uri getOtrMessagesContentUriByContact(long accountId, String username) {
             Uri.Builder builder = OTR_MESSAGES_CONTENT_URI_BY_ACCOUNT_AND_CONTACT.buildUpon();
             ContentUris.appendId(builder, accountId);
@@ -2256,6 +2259,37 @@ public class Imps {
              */
             public String getJidResource() {
                 return getString(JID_RESOURCE, null);
+            }
+
+            /**
+             *
+             * @return a {@link Map} of all the Provider Settings
+             */
+            public Map<String, Object> getMap() {
+                HashMap<String, Object> map = new HashMap<String, Object>();
+                map.put(ALLOW_PLAIN_AUTH, getAllowPlainAuth());
+                map.put(AUTOMATICALLY_CONNECT_GTALK, getAutomaticallyConnectToGTalkServer());
+                map.put(DELETE_UNSECURED_MEDIA, getDeleteUnsecuredMedia());
+                map.put(DO_DNS_SRV, getDoDnsSrv());
+                map.put(DOMAIN, getDomain());
+                map.put(ENABLE_NOTIFICATION, getEnableNotification());
+                map.put(HEARTBEAT_INTERVAL, getHeartbeatInterval());
+                map.put(LINKIFY_ON_TOR, getLinkifyOnTor());
+                map.put(HIDE_OFFLINE_CONTACTS, getHideOfflineContacts());
+                map.put(JID_RESOURCE, getJidResource());
+                map.put(OTR_MODE, getOtrMode());
+                map.put(PORT, getPort());
+                map.put(REQUIRE_TLS, getRequireTls());
+                map.put(SERVER, getServer());
+                map.put(SHOW_AWAY_ON_IDLE, getShowAwayOnIdle());
+                map.put(SHOW_MOBILE_INDICATOR, getShowMobileIndicator());
+                map.put(TLS_CERT_VERIFY, getTlsCertVerify());
+                map.put(UPLOAD_HEARTBEAT_STAT, getUploadHeartbeatStat());
+                map.put(USE_FOREGROUND_PRIORITY, getUseForegroundPriority());
+                map.put(USE_TOR, getUseTor());
+                map.put(XMPP_RESOURCE, getXmppResource());
+                map.put(XMPP_RESOURCE_PRIO, getXmppResourcePrio());
+                return map;
             }
 
             /**
