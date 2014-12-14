@@ -203,8 +203,12 @@ public class XMPPCertPinsTest extends AndroidTestCase {
                 config.setCustomSSLContext(sslContext);
                 if (Build.VERSION.SDK_INT >= 20) {
                     config.setEnabledCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES_API_20);
+                    assertTrue(Arrays.equals(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES_API_20,
+                            config.getEnabledCipherSuites()));
                 } else {
                     config.setEnabledCipherSuites(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES);
+                    assertTrue(Arrays.equals(XMPPCertPins.SSL_IDEAL_CIPHER_SUITES,
+                            config.getEnabledCipherSuites()));
                 }
                 connection = new XMPPConnection(config);
                 connection.addConnectionListener(new ShouldSucceedConnectionListener(domain));
