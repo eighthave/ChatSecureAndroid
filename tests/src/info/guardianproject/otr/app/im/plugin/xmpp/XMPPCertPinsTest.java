@@ -161,6 +161,118 @@ public class XMPPCertPinsTest extends AndroidTestCase {
         }
     }
 
+    public void testDomainsWithoutPins() {
+        try {
+            for (String domain : domainsWithoutPins) {
+                Log.i(TAG, "TESTING DOMAINS WITHOUT PINS: " + domain);
+                connection = new XMPPConnection(getConfig(domain));
+                connection.addConnectionListener(new ConnectionListener() {
+
+                    @Override
+                    public void reconnectionSuccessful() {
+                        Log.i(TAG, "reconnectionSuccessful");
+                        assertTrue(false);
+                    }
+
+                    @Override
+                    public void reconnectionFailed(Exception e) {
+                        Log.i(TAG, "reconnectionSuccessful");
+                        e.printStackTrace();
+                        assertTrue(false);
+                    }
+
+                    @Override
+                    public void reconnectingIn(int arg0) {
+                        Log.i(TAG, "reconnectingIn " + arg0);
+                        assertTrue(false);
+                    }
+
+                    @Override
+                    public void connectionClosedOnError(Exception e) {
+                        Log.i(TAG, "connectionClosedOnError");
+                        e.printStackTrace();
+                    }
+
+                    @Override
+                    public void connectionClosed() {
+                        Log.i(TAG, "connectionClosed");
+                    }
+                });
+                connection.connect();
+                assertTrue(connection.isConnected());
+            }
+        } catch (KeyManagementException e) {
+            e.printStackTrace();
+            assertTrue(false);
+        } catch (XMPPException e) {
+            e.printStackTrace();
+            assertTrue(false);
+        }
+    }
+
+    /**
+     * currently fails on domains that use DNS SRV to point to the real server
+     */
+    public void testDomainsWithDefaultTrustManager() {
+        try {
+            int length = domainsWithoutPins.length + domainsWithPins.length;
+            String domains[] = new String[length];
+            int i;
+            for (i = 0; i < domainsWithoutPins.length; i++)
+                domains[i] = domainsWithoutPins[i];
+            for (; i < length; i++)
+                domains[i] = domainsWithPins[i - domainsWithoutPins.length];
+            for (String domain : domains) {
+                Log.i(TAG, "TESTING DOMAINS WITH DEFAULT TRUST MANAGER: " + domain);
+                ConnectionConfiguration config = getConfig(domain);
+                connection = new XMPPConnection(config);
+                connection.addConnectionListener(new ConnectionListener() {
+
+                    @Override
+                    public void reconnectionSuccessful() {
+                        Log.i(TAG, "reconnectionSuccessful");
+                        assertTrue(false);
+                    }
+
+                    @Override
+                    public void reconnectionFailed(Exception e) {
+                        Log.i(TAG, "reconnectionSuccessful");
+                        e.printStackTrace();
+                        assertTrue(false);
+                    }
+
+                    @Override
+                    public void reconnectingIn(int arg0) {
+                        Log.i(TAG, "reconnectingIn " + arg0);
+                        assertTrue(false);
+                    }
+
+                    @Override
+                    public void connectionClosedOnError(Exception e) {
+                        Log.i(TAG, "connectionClosedOnError");
+                        e.printStackTrace();
+                        // assertTrue(false);
+                    }
+
+                    @Override
+                    public void connectionClosed() {
+                        Log.i(TAG, "connectionClosed");
+                    }
+                });
+                connection.connect();
+                assertTrue(connection.isConnected());
+            }
+        } catch (KeyManagementException e) {
+            Log.e(TAG, "KeyManagementException");
+            e.printStackTrace();
+            assertTrue(false);
+        } catch (XMPPException e) {
+            Log.e(TAG, "XMPPException");
+            e.printStackTrace();
+            // assertTrue(false);
+        }
+    }
+
     public void testRecommendedDomainsWithTLSV12() {
         if (Build.VERSION.SDK_INT < 16) // TLS v1.2 added in android-16
             return;
