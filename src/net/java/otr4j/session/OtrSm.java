@@ -17,7 +17,7 @@ import net.java.otr4j.crypto.SM.SMException;
 import net.java.otr4j.crypto.SM.SMState;
 import net.java.otr4j.io.OtrOutputStream;
 
-import org.spongycastle.util.encoders.Hex;
+import org.bouncycastle.util.encoders.Hex;
 
 public class OtrSm implements OtrTlvHandler {
     public static interface OtrSmEngineHost extends OtrEngineHost {
