@@ -1,29 +1,38 @@
-Chat Securely With Anyone, Anywhere
+# Do not upload this to Transifex yet!  It will cause all of the other
+# languages to lose most of their translations because of this crappy text
+# format.  Before uploading, this needs to be converted to a XLIFF format.
 
-Free unlimited messaging with your friends over Facebook Chat, Google Chat & more! Works with Android, iPhone, Mac, Linux or PC.
+Free unlimited, private messaging with your friends, you can trust.
 
-PC Mag “100 Best Android Apps of 2013.” 
+Free unlimited, encrypted and private messaging with your friends over Google Talk/Hangouts, Facebook Chat, Dukgo, Jabber & more! Works with Android, iPhone, Mac, Linux or PC.
 
-★ COMPLETELY FREE, UNLIMITED MESSAGING: No charges, ever. Chat all day with your friends across the street or across the ocean.
+★ EFF rates as most secure: https://www.eff.org/secure-messaging-scorecard
+★ PC Mag “100 Best Android Apps of 2013.”
+
+★ COMPLETELY FREE, UNLIMITED MESSAGING: No charges, ever. Chat all day with your friends across the street or across the ocean
 ★ CHAT WITH ANYONE, ANYWHERE: Chat with your friends on Google Chat (GChat), Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber, and more!
-★ WORKS ON EVERY PLATFORM: Android with Gibberbot, iPhone with ChatSecure, Mac with Adium, Linux with Jitsi, Windows with Pidgin, and more!
-★ UNBEATABLE PRIVACY: We keep your messages 100% private using state of the art Off-The-Record (OTR) encryption. Your conversations cannot be logged or intercepted by anyone. NOTE: These security measures only apply when your friend uses a compatible OTR client like Gibberbot, ChatSecure, Adium or Pidgin.
-★ NO SNOOPING: Your connection is encrypted so nobody can spy on your conversation. And the messages aren't even kept in system memory for any prying apps to find.
-★ AUTOMATICALLY ADDS YOUR FRIENDS: When you login with any account, including Google and Facebook, your contacts are added immediately.
+★ FACEBOOK USERS: Add your Facebook "email address" as existing XMPP account type
+★ WORKS ON EVERY PLATFORM: Android with ChatSecure, iPhone with ChatSecure, Mac with Adium, Linux with Jitsi, Windows with Pidgin, and more!
+★ UNBEATABLE PRIVACY: We keep your messages 100% private using state of the art Off-The-Record (OTR) encryption. Your conversations cannot be logged or intercepted by anyone. NOTE: These security measures only apply when your friend uses a compatible OTR client like ChatSecure, ChatSecure, Adium or Pidgin
+★ NO SNOOPING: Your connection is encrypted so nobody can spy on your conversation. And the messages aren't even kept in system memory for any prying apps to find
+★ AUTOMATICALLY ADDS YOUR FRIENDS: When you login with any account, including Google and Facebook, your contacts are added immediately
 ★ FUN BUILT-IN: Multiple themes are included and you can create your own custom wallpapers. Your friends get cute personal icons too!
-★ CHAT THAT CAN’T BE BLOCKED: Use Gibberbot with our privacy plugin Orbot to bypass almost all firewalls, network restrictions and blacklists. Get the Orbot plugin, powered by Tor: http://goo.gl/lpnda
-★ CHAT ON ANY SCREEN: Gibberbot is designed to be beautiful on any Android phone, tablet, or phablet.
-★ AD-FREE: We want your love, not your money.
-★ EASY TUTORIAL: Gibberbot is easy to use. Click here for a quick, interactive walkthrough: https://guardianproject.info/howto/chatsecurely
-★ WE SPEAK YOUR LANGUAGE: Gibberbot is available for friends who speak:
-Arabic (العربية), Chinese (中文简体), Czech (Čeština), Danish (Dansk), Dutch (Nederlands), English, Esperanto, Farsi (فارسی), French (Français), German (Deutsch), Greek (Ελληνικά), Hungarian (Magyar Nyelv), Italian (Italiano), Japanese (日本語) Korean (조선말), Norwegian (Norsk), Portuguese (Português), Russian (Русский), Spanish (Español), Slovak (Slovenčina), Swedish (Svensk), Tibetan (བོད་སྐད།), Turkish (Türkçe), and Vietnamese (Tiếng Việt).
-Don’t see your language? Join us and help translate the app: https://www.transifex.com/projects/p/gibberbot
+★ CHAT THAT CAN’T BE BLOCKED: Use ChatSecure with our privacy plugin Orbot to bypass almost all firewalls, network restrictions and blacklists. Get the Orbot plugin, powered by Tor: https://goo.gl/lpnda
+★ CHAT ON ANY SCREEN: ChatSecure is designed to be beautiful on any Android phone, tablet, or phablet
+★ AD-FREE: We want your love, not your money
+★ EASY TUTORIAL: ChatSecure is easy to use. Click here for a quick, interactive walkthrough: https://guardianproject.info/howto/chatsecurely
+★ WANT ACCESS TO LATEST BETAS: Join our group here: https://plus.google.com/communities/108480576214602821006
+★ WE SPEAK YOUR LANGUAGE: ChatSecure is available for friends who speak: العربية, Български, 中文(简体), 中文(台灣), Català, Čeština, Dansk, ‏עברית‏, Nederlands, English, Esperanto, فارسی, Français, Deutsch, Ελληνικά, Magyar, Bahasa Indonesia, Italiano, 日本語, 조선말, Norsk, Polski, Português, Русский, español, español (España), Slovenčina, Slovenščina, Српски, Svensk, བོད་སྐད།, Türkçe, and Tiếng Việt
+Don’t see your language? Join us and help translate the app: https://www.transifex.com/projects/p/chatsecureandroid
+
 ***Learn More***
-★ ABOUT US: Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow.
-★ OUR WEBSITE: GuardianProject.info
+★ ABOUT US: Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow
+★ OUR WEBSITE: https://GuardianProject.info
 ★ ON TWITTER: https://twitter.com/guardianproject
-★ OPEN-SOURCE: Gibberbot is free software. You can take a look at our source code, or join the community to help make Gibberbot even better: https://github.com/guardianproject/Gibberbot
-★ MESSAGE US: Are we missing your favorite feature? Found an annoying bug? Please tell us! We’d love to hear from you. Send us an email: root@guardianproject.info
+★ OPEN-SOURCE: ChatSecure is free software. You can take a look at our source code, or join the community to help make ChatSecure even better: https://github.com/guardianproject/ChatSecureAndroid
+★ MESSAGE US: Are we missing your favorite feature? Found an annoying bug? Please tell us! We’d love to hear from you. Send us an email: support@guardianproject.info
+
 ***Disclaimer***
 The Guardian Project makes apps that are designed to protect your security and anonymity. The protocols that we use are widely regarded as the state of the art in security technology. While we are constantly upgrading our software to combat the latest threats and eliminate bugs, no technology is 100% foolproof. For maximum security and anonymity users must utilize best practices to keep themselves safe. You can find a good introductory guide to these topics at https://securityinabox.org
-Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP
+
+Keywords: Adium Cypherpunks Encrypted Messages GChat GTalk Hidden Hyves iMessage Jabber Jitsi Off-the-Record (OTR) Pidgin Private Secret Secure Message Viber vkontakte WeChat WhatsApp XMPP
