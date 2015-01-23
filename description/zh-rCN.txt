@@ -1,0 +1,29 @@
+随时随地安全交流
+
+和社交网络Facebook，Google...等好友无限制免费通信！在Android，iPhone，Mac，Linux和PC上都能使用。
+
+PC Mag杂志评选“2013年Android一百个最佳应用”。 
+
+★ 完全免费，信息无限：永久免费。随时随地，让你时刻与好友聊天。
+★ 随时随地都能聊：不管你用Google，Facebook，VKontakte，Yandex，Hyves，Odnoklassniki，StudiVZ，Livejournal，Jabber还是其他，都能与好友聊天！
+★ 所有平台皆能使用：Android上用Gibberbot，iPhone上用ChatSecure，Mac上用Adium，Linux上用Jitsi，Windows上用Pidgin，等等等等！
+★ 捍卫隐私：通过使用最新的OTR加密，我们保证你消息100%的隐私。你的消息无法被任何人记录或者拦截。注意：这些安全措施只有在你的好友也使用诸如Gibberbot，ChatSecure，Adium，或者Pidgin等兼容的OTR客户端时才有效。
+★ 没有嗅探：你的连接被完全的加密，因此没人能够窥探你的会话。并且消息也没有被保存在系统内存中，从而不会被恶意软件找到。
+★ 自动添加好友：当你使用Google，Facebook，或者任何账户登录，你的联系人都能被自动添加。
+★ 用得有趣：内置多个主题，还能创建自定义墙纸。你的好友也能获得个性化图标！
+★ 无法屏蔽的聊天：通过使用隐私插件Orbot，Gibberbot能够穿越几乎所有的防火墙，网络限制和黑名单。在这里获取Tor提供的Orbot插件：http://goo.gl/lpnda
+★ 任何屏幕都能聊天：Gibberbot被设计为能够在所有的Android手机，平板，以及平板手机上漂亮的运行。
+★ 没有广告：我们想得到你的爱，而不是钞票。
+★ 简单易用：Gibberbot非常容易使用。来这里阅读快速和交互式的精简教程：https://guardianproject.info/howto/chatsecurely
+★ 我们使用你的语言：Gibberbot可被讲如下语言的朋友使用：
+阿拉伯语 (العربية), 简体中文, 捷克语 (Čeština), 丹麦语 (Dansk), 荷兰语 (Nederlands), 英文 (English), 世界语 (Esperanto), 波斯语 (فارسی), 法语 (Français), 德语 (Deutsch), 希腊语 (Ελληνικά), 匈牙利语 (Magyar Nyelv), 意大利语 (Italiano), 日语 (日本語), 韩语 (조선말), 挪威语 (Norsk), 葡萄牙语 (Português), 俄语 (Русский), 西班牙语 (Español), 斯洛伐克语 (Slovenčina), 瑞典语 (Svensk), 藏语 (བོད་སྐད།), 土耳其语 (Türkçe), 以及越南语 (Tiếng Việt).
+没有看到你的语言？加入我们帮助翻译该程序：https://www.transifex.com/projects/p/gibberbot
+***了解更多***
+★ 关于我们：Guardian Project是一群开发安全移动应用和开源软件的程序员，我们希望明天更佳美好。
+★ 我们的网站：GuardianProject.info
+★ 在Twitter上跟随我们：https://twitter.com/guardianproject
+★ 开源：Gibberbot是自由软件。你可以在这里阅读源代码，或者加入社区帮助改进Gibberbot：https://github.com/guardianproject/Gibberbot
+★ 给我们留言：还有你希望获得的功能吗？发现了软件缺陷？请告诉我们！我们希望听到你的消息。给我们发邮件吧：root@guardianproject.info
+***免责声明***
+Guardian Project开发保护你安全和匿名的软件。我们使用的协议是在安全领域里被认为最先进的技术。尽管我们在不断的更新软件，来应对最新的威胁，并且消除软件缺陷，但没有任何的技术是100%万无一失的。为了获得最大的安全和匿名，用户应该采用最好的手段来保护自身安全。你可以在这里阅读到相关的信息：https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

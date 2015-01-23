@@ -1,0 +1,29 @@
+Chatta säkert med alla, överallt
+
+Gratis obegränsad chatt med dina vänner över Facebook Chatt, Google Chatt & mer! Fungerar med Android, iPhone, Mac, Linux eller PC.
+
+PC Mag "100 bästa Android apparna 2013." 
+
+★ HELT GRATIS, OBEGRÄNSAD CHATT: Inga avgifter, någonsin. Chatta hela dagen med dina vänner över gatan eller över havet.
+★ CHATTA MED VEM SOM HELST, VART SOM HELST: Chatta med dina vänner på Google Chat (GChatt), Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber, med flera!
+★ FUNGERAR PÅ ALLA PLATTFORMAR: Android med Gibberbot, iPhone med ChatSecure, Mac med Adium, Linux med Jitsi, Windows med Pidgin, och mer!
+★ OSLAGBAR INTEGRITET: Vi håller dina meddelanden 100% privata med modern Off-The-Record (OTR) kryptering. Dina konversationer kan inte loggas eller övervakas av någon. NOTERA: Dessa säkerhetsåtgärder gäller enbart när din vän använder en kompatibel OTR klient som Gibberbot, ChatSecure, Adium eller Pidgin.
+★ INGET SNOKANDE: Din anslutning är krypterad så ingen kan spionera på din konversation. Och meddelandena är inte ens lagrade i systemminnet för snokande appar att hitta.
+★ LÄGGER AUTOMATISKT TILL DINA VÄNNER: När du loggar in med valfritt konto, inklusive Google och Facebook, läggs dina kontakter till automatiskt.
+★ INBYGGT KUL: Flera teman är inkluderade och du kan skapa dina egna specialanpassade skärmbakgrunder. Dina vänner får söta personliga ikoner också!
+★ CHATT SOM INTE KAN BLOCKERAS: Använd Gibberbot med vår integritetsplugin Orbot för att ta dig förbi nästan alla brandväggar, nätverksrestriktioner, och svartlistor. Skaffa Orbot tillägget, drivet av Tor: http://goo.gl/lpnda
+★ CHATTA PÅ ALLA SKÄRMAR: Gibberbot är designat att se vacker ut på alla Android telefoner och surfplattor.
+★ ANNONS-FRI: Vi vill ha din kärlek, inte dina pengar.
+★ ENKEL GUIDE: Gibberbot är enkelt att använda. Klicka här för en snabb, interaktiv genomgång: https://guardianproject.info/howto/chatsecurely
+★ VI TALAR DITT SPRÅK: Gibberbot är tillgängligt för vänner som talar:
+Arabic (العربية), Chinese (中文简体), Czech (Čeština), Danish (Dansk), Dutch (Nederlands), English, Esperanto, Farsi (فارسی), French (Français), German (Deutsch), Greek (Ελληνικά), Hungarian (Magyar Nyelv), Italian (Italiano), Japanese (日本語) Korean (조선말), Norwegian (Norsk), Portuguese (Português), Russian (Русский), Spanish (Español), Slovak (Slovenčina), Swedish (Svensk), Tibetan (བོད་སྐད།), Turkish (Türkçe), and Vietnamese (Tiếng Việt).
+Ser du inte ditt språk? Gå med oss och hjälp oss översätta appen: https://www.transifex.com/projects/p/gibberbot
+***Lär dig mer***
+★ OM OSS: Guardian Project är en grupp av utvecklare som skapar säkra mobilappar och open-source kod för en bättre morgondag.
+★ VÅR WEBBSIDA: GuardianProject.info
+★ PÅ TWITTER: https://twitter.com/guardianproject
+★ ÖPPEN KÄLLKOD: Gibberbot är gratis mjukvara. Du kan ta en titt på källkoden, eller gå med i vårt community och hjälpa att göra Gibberbot ännu bättre: https://github.com/guardianproject/Gibberbot
+★ KONTAKTA OSS: Saknas din favoritfunktion? Hittat en jobbig bugg? Låt oss veta! Vi vill gärna höra ifrån dig. Skicka oss ett mail till: root@guardianproject.info.
+***Ansvarsfriskrivning***
+The Guardian Project gör appar som är designade för att skydda din säkerhet och anonymitet. De protokoll som vi använder är vida ansedda som bäst inom säkerhetsteknologi. Medan vi konstant uppgraderar vår mjukvara för att bekämpa de senaste hoten och eliminera buggar så är ingen teknologi 100% felsäker. För maximal säkerhet och anonymitet måste användare använda bästa praxis för att skydda sig själva. Du kan hitta en bra introduktionsguide till dessa ämnen på https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Krypterade Meddelanden, Facebook Chat, Google Chat, GChat, GTalk, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Privat Chatt, Hemlig Chatt, Hemliga Meddelanden, Säker Chatt, TLS, VIBER, vkontakte, WeChat, WhatsApp, XMPP

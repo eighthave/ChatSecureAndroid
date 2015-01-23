@@ -1,0 +1,30 @@
+Mengobrol Secara Aman dengan Siapa Saja, Dimana Saja
+
+Kirim pesan gratis tidak terbatas dengan teman-teman anda lewat Facebook Chat, Google Chat dan lain-lain! Kompatible dengan Android, iPhone, Mac, Linux atau PC.
+
+"100 Aplikasi Android Terbaik 2013" dari PC Mag. 
+
+★ OBROLAN TAK TERBATAS, BETUL-BETUL GRATIS: Tidak ada biaya. Mengobrollah seharian dengan teman-temanmu, di seberang jalan atau di seberang samudera.
+★ MENGOBROL DENGAN SIAPAPUN, DIMANAPUN: Mengobrollah dengan teman-temanmu di Google Chat (GChat), Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber, dan banyak lagi!
+★ BERFUNGSI DI SEMUA SERAMBI: Android dengan Gibberbot, iPhone dengan ChatSecure, Mac dengan Adium, Linux dengan Jitsi, Windows dengan Pidgin, dan banyak lagi!
+★ PRIVASI YANG TAK TERKALAHKAN: Kami membuat pesan-pesan anda 100% aman dengan menggunakan enkripsi Off-The-Record (OTR) yang canggih. Percakapan anda tidak dapat di rekam atau di sadap oleh siapapun. CATATAN: Capaian keamanan ini hanya berlaku jika kawan anda menggunakan klien OTR yang kompatibel, seperti Gibberbot, ChatSecure, Adium, atau Pidgin.
+★ TIDAK ADA PENYADAPAN: Saluran anda di enkripsi sehingga tidak ada yang dapat menyadap percakapan anda. Bahkan pesan-pesan anda tidak tersimpan di memori sistem sehingga tidak dapat ditemukan oleh aplikasi pencari apapun.
+★ MENAMBAHKAN TEMAN-TEMAN ANDA SECARA OTOMATIS: Jika anda masuk menggunakan akun apapun, termasuk Google dan Facebook, kontak anda segera masuk ke daftar anda.
+★ KECERIAAN TERPADU: Banyak tema sudah termasuk didalam, dan anda dapat membuat sendiri wallpaper layar anda. Kawan anda juga dapat tampil dengan ikon-ikon yang lucu!
+★ OBROLAN YANG TIDAK DAPAT DI BLOKIR: Gunakan Gibberbot dengan plugin privasi Orbot kami untuk dapat menerobos hampir semua firewall, batasan jaringan, dan daftar hitam. Unduh plugin Orbot yang berdukungan Tor: http://goo.gl/lpnda
+★ MENGOBROL DI LAYAR MANAPUN: Gibberbot didesain untuk tampil indah di telepon, tablet, ataupun phablet Andoid apapun.
+★ BEBAS IKLAN: Kami ingin cinta anda, bukan uang anda.
+★ PENGAJARAN MUDAH: Gibberbot mudah digunakan. Klik disini untuk panduan cepat dan interaktif: https://guardianproject.info/howto/chatsecurely
+★ KAMI MENGERTI BAHASA ANDA: Gibberbot tersedia untuk anda yang berbahasa:
+Arab (العربية), Cina (中文简体), Ceko (Čeština), Denmark (Dansk), Belanda (Nederlands), Inggris, Esperanto, Farsi (فارسی), Perancis (Français), Jerman (Deutsch), Yunani (Ελληνικά), Hungaria (Magyar Nyelv), Italia (Italiano), Jepang (日本語) Korea (조선말), Norwegia (Norsk), Portugis (Português), Rusia (Русский), Spanyol (Español), Slowakia (Slovenčina), Swedia (Svensk), Tibet (བོད་སྐད།), Turki (Türkçe), dan Vietnam (Tiếng Việt).
+Bahasa anda tidak terdaftar? Bergabunglah dan bantu kami menerjemahkan app ini: https://www.transifex.com/projects/p/gibberbot
+***Pelajari Lebih Lanjut***
+★ TENTANG KAMI: Guardian Project adalah grup pengembang piranti lunak yang membuat aplikasi mobile yang aman, dan kode sumber-terbuka untuk esok yang lebih baik.
+★ LAMAN KAMI: GuardianProject.info
+★ DI TWITTER: https://twitter.com/guardianproject
+★ SUMBER-TERBUKA: Gibberbot adalah piranti lunak gratis. Anda dapat melihat kode program kami, atau bergabunglah dalam komunitas untuk membantu membuat Gibberbot lebih baik lagi: https://github.com/guardianproject/Gibberbot
+★ KIRIMI KAMI PESAN: Apakah kami melewatkan fitur favorit anda? Ada kekurangan program yang mengganggu? Beri tahu kami! Kami menunggu kabar dari anda. Kirim email anda ke: root@guardianproject.info
+***Disclaimer***
+The Guardian Project membuat aplikasi yang didesain untuk melindungi keamanan dan anonimitas anda. Protokol-protokol yang kami gunakan telah dikenal luas sebagai teknologi pengamanan yang canggih. Walaupun kami selalu mempercanggih piranti lunak kami untuk melawan ancaman-ancaman terbaru dan menutup kekurangan program, tak ada program yang 100% sempurna. Untuk mendapatkan keamanan dan anonimitas maksimal, pengguna harus menjalankan perilaku yang terbaik demi keamanan diri. Anda dapat membaca bimbingan topik-topik tersebut di
+https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

@@ -1,0 +1,30 @@
+Varno klepetajte s komerkoli in kjerkoli.
+
+Brezplačno neomejeno sporočanje z vašimi prijatelji preko Facebook klepeta, Google klepeta in ostalimi! Deluje na Androidu, iPhonu, Macu, Linuxu ali osebnem računalniku.
+
+Med PC Magovimi "100 najboljšnimi aplikacijami za Android leta 2013" 
+
+★ POPOLNOMA BREZPLAČNO IN NEOMEJENO SPOROČANJE: Vedno brez stroškov. Cel dan klepetajte s prijatelji na drugi strani ceste ali oceana.
+★ KLEPETAJTE S KOMERKOLI IN KJERKOLI: Klepetajte z vašimi prijatelji preko Google klepeta (GChat), Facebook klepeta, VKontakta, Yandexa, Odnoklassnika, StudiVZja, Livejournala, Jabberja in ostalih!
+★ DELUJE NA VSEH PLATFORMAH: Na Androidu z Gibberbotom, na iPhonu s ChatSecurom, na Macu z Adiumom, na Linuxu z Jitsijem, na Windowsu s Pidginom in drugje!
+★ NEPREMAGLJIVA ZASEBNOST: Vaša sporočila ohranjamo 100% zasebna z uporabo šifriranja "brez beleženja" (OTR). Vaših sporočil ne more nihče beležiti ali prestreči. OPOZORILO: Tej varnostni ukrepi delujejo le, če tudi vaši prijatelji uporabljajo odjemalce, ki podpirajo OTR (kot so Gibberbot, ChatSecure, Adium ali Pidgin).
+★ BREZ VOHLJANJA: Vaša povezava je šifrirana, zato ne more nihče vohuniti za vašimi pogovori. Poleg tega se vaša sporočila ne shranjujejo v sistemskem spominu, zato jih ostale radovedne aplikacije ne morejo najti.
+★ AVTOMATIČNO DODAJANJE VAŠIH PRIJATELJEV: Ko se prijavite s katerimkoli računom, vključno z Googlom in Facebookom, se vaši kontakti nemudoma dodajo.
+★ VGRAJENA ZABAVA: Vključenih je mnogo tem, poleg tega pa lahko ustvarjate vaša lastna ozadja. Tudi vaši prijatelji lahko dobijo ljubke osebne ikone!
+★ POGOVOR, KI SE GA NE DA BLOKIRATI: Uporabljajte Gibberbot skupaj z našim dodatkom za zasebnost Orbotom, da lahko zaobidete skoraj vsak požarni zid, omrežne blokade in črne liste. Pridobite dodatek Orbot, narejen iz Tora: http://goo.gl/lpnda
+★ KLEPETAJTE NA VSEH ZASLONIH: Gibberbot je zasnovan za lepoto na kateremkoli Androidnem telefonu ali tablici.
+★ BREZ OGLASOV: Hočemo vašo ljubezen, ne denarja.
+★ ENOSTAVNA NAVODILA: Gibberbot je enostaven za uporabo. Kliknite sem za hiter in interaktiven pregled: https://guardianproject.info/howto/chatsecurely
+★ GOVORIMO V VAŠEM JEZIKU: Gibberbot je dostopen vsem vašim prijateljem, ki govorijo:
+arabščino (العربية), kitajščino (中文简体), češčino (Čeština), danščino (Dansk), nizozemščino (Nederlands), angleščino (English), Esperanto, perzijščino (فارسی), francoščino (Français), nemščino (Deutsch), grščino (Ελληνικά), madžarščino (Magyar Nyelv), italijanščino (Italiano), japonščino (日本語), korejščino (조선말), norveščino (Norsk), portugalščino (Português), ruščino (Русский), španščino (Español), slovaščino (Slovenčina), slovenščino, švedščino (Svensk), tibetanščino (བོད་སྐད།), turščino (Türkçe), in vietnamščino (Tiếng Việt).
+Ne najdete svojega jezika? Pridružite se nam in nam pomagajte prevesti našo aplikacijo: https://www.transifex.com/projects/p/gibberbot
+***Izvedite več***
+★ O NAS: Projekt Guardian je skupina razvijalcev, ki izdelujejo varne mobilne aplikacije in odprtokodne kode za lepši jutri.
+★ NAŠA SPLETNA STRAN: GuardianProject.info
+★ SMO NA TWITTERJU: https://twitter.com/guardianproject
+★ ODPRTOKODNOST: Gibberbot je brezplačna programska oprema. Lahko si ogledate našo izvorno kodo, ali se pridružite skupnosti, da naredimo Gibberbot še boljši: https://github.com/guardianproject/Gibberbot
+★ PIŠITE NAM: Smo izpustili vam najljubšo funkcijo? Ste našli nadležno napako? Prosimo, povejte nam! Radi bi kaj slišali od vas. Pošljite nam e-pošto na: root@guardianproject.info
+***Izjava o omejitvi odgovornosti***
+Projekt Guardian ustvarja aplikacije, ki so narejene za zaščito vaše varnosti in anonimnost. Protokoli, ki jih uporabljamo,
+so obravnavani kot najsodobnejši v varnostni tehnologiji. Kljub temu, da venomer posodabljamo našo programsko opremo za varnost pred najnovejšimi grožnjami in za odstranjevanje hroščev, ni nobena tehnologija 100% zanesljiva. Za maksimalno zaščito in anonimnost morajo poskrbeti uporabniki sami. Glede te teme lahko najdete dobra navodila na: https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

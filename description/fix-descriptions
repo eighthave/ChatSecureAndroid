@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# fix any common errors in the descriptions
+
+sed -i \
+    -e 's,https://github.com/guardianproject/Gibberbot,https://github.com/guardianproject/ChatSecureAndroid,g' \
+    -e 's,https://www.transifex.com/projects/p/gibberbot,https://www.transifex.com/projects/p/chatsecureandroid,g' \
+    -e 's,gibberbot,chatsecure,g' \
+    -e 's,Gibberbot,ChatSecure,g' \
+    -e 's,: GuardianProject.info,: https://GuardianProject.info,g' \
+    -e 's,http:,https:,g' \
+    -e 's,root@guardianproject.info,support@guardianproject.info,g' \
+    -e 's, *$,,g' \
+    *.txt

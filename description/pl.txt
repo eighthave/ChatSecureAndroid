@@ -1,0 +1,29 @@
+Czatuj bezpiecznie z kimkolwiek, gdziekolwiek
+
+Darmowy i bezpieczny komunikator dla Facebook Chat, Google Chat i wielu więcej ! Działa na telefonach z Android, iPhone, oraz komputerach z Windows, MacOS lub Linux.
+
+PC Mag "100 najlepszych aplikacji 2013." 
+
+★ DARMOWY, BEZ LIMITÓW, BEZPIECZNY, SZYFROWANE ROZMOWY: Rozmawiaj ze znajomymi z ulicy lub z drugiego końca świata.
+★ ROZMAWIAJ Z KIMKOLWIEK, GDZIEKOLWIEK BEZPIECZNIE: Chatuj z przjaciułmi bezpiecznie przez Google Chat (GChat), Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber i wiele innych!
+★ DZIAŁA NA KAŻDYM OPROGRAMOWANIU I SYSTEMIE: Na komórkach i komputerach. Na Androidzie Gibberbot, na iPhonie z ChatSecure, na Macu z Adium, na Linuxie z Jitsi, na Windowsie z Pidgin i wiele innych !
+★ NIEPOKONANY W GWARANTOWANIU BEZPIECZEŃSTWA: Twoje wiadomości są prywatne w 100% dzięki korzystaniu z szyfrowania Off-The-Record (OTR). Twoje rozmowy nie mogą być logowane ani przejrzane przez kogokolwiek innego. Ostrzeżenie: Pamiętaj, że bezpieczeństwo jest zapewnione jedynie gdy twoi znajomi również korzystając z kompatybilnych klientów OTR jak Gibberbot, CatSecure, Adium czy Pidgin.
+★ OCHROŃ SIĘ PRZED WYKRADANIEM INFORMACJI: Twoje połączenie jest szyfrowane więc nikt nie może śledźić twoich rozmów. Wiadomości nie są nawet przechowywane w pamięci sytemu aby uniemżliwić wykradanie informacji przez szkodliwe oprogramowanie, które może pojawić się na twoim komputerze lub komórce.
+★ MOŻLIWOŚĆ AUTOMATYCZNEGO DODAWANIA LISTY KONTAKTÓW: Gdy zalogujesz się na konto (np. Google lub Facebook) twoje kontakty dodawane są do listy kontaktów.
+★ GRAFICZNIE CIEKAWY: Różnorodne skórki są dołączone do programu, sam również możesz je tworzyć. Twoi znajomi moga dostać fajne miniaturki również!
+★ CZAT, KTÓRY NIE BĘDZIE BLOKOWANY PRZEZ FIREWALLE: Korzystaj z Gibberbot z pluginem bezpieczeństwa Orbot aby bezproblemowo używać czata i omijać problemy łączności powstające przez firewalle, ograniczenia sieci i czarne listy. Pobierz plugin Orbot bazujący na rozwiązaniach Tor: http://goo.gl/lpnda
+★ ROZMWIAJ KORZYSTJĄC Z JAKIEGOKOLWIEK WYŚWIETLACZA: Gibberbot jest tak zaprojektowany aby wyglądał efektownie na każdym telefonie z Androidem lub tablecie.
+★ BEZ REKLAM : Działamy na rzecz społeczności, nie dla pieniędzy.
+★ ŁATWA OBSŁUGA PROGRAMU DZIĘKI PROSTEMU WPROWADZENIU KROK PO KROKU: Gibberbot jest prosty w użyciu. Sprawdź prezentację pod linkiem: https://guardianproject.info/howto/chatsecurely
+★ MÓWIMY RÓWNIEŻ PO POLSKU: Gibberbot jest dostępny dla znajomych, którzy mówią po:
+Arabic (العربية), Chinese (中文简体), Czech (Čeština), Danish (Dansk), Dutch (Nederlands), English, Esperanto, Farsi (فارسی), French (Français), German (Deutsch), Greek (Ελληνικά), Hungarian (Magyar Nyelv), Italian (Italiano), Japanese (日本語) Korean (조선말), Norwegian (Norsk), Polish (Polski), Portuguese (Português), Russian (Русский), Spanish (Español), Slovak (Slovenčina), Swedish (Svensk), Tibetan (བོད་སྐད།), Turkish (Türkçe), and Vietnamese (Tiếng Việt).
+Nie widzisz swojego języka? Dołącz do nas i pomóż w tłumaczeniu aplikacji: https://www.transifex.com/projects/p/gibberbot
+***Dowiedz się więcej***
+★ O NAS: Guardian Project jest grupą deweloperów tworzącą bezpieczne aplikacje na telefony gdzie kod jest przejrzysty i możliwy do rozwoju by budować doskonalszye aplikacje jutra.
+★ NASZA STRONA INTERNETOWA: GuardianProject.info
+★ NA TWITTERze: https://twitter.com/guardianproject
+★ OTWARTE OPROGRAMOWANIE: Gibberbot jest darmowy. Możesz też samemu sprawdzić kod źródłowy programu lub dołączyć do naszej społeczności i pomagać w jego rozwijaniu: https://github.com/guardianproject/Gibberbot
+★ PODZIEL SIĘ SWOJĄ OPINIĄ I UWAGAMI Z NAMI: Jeśli brakuje jakiejś ciekawej funkcjonalności albo znalazłeś jakiś błąd ? Daj nam znać! Pomóź, czekamy na twoją opinię. Maila ślij na: root@guardianproject.info
+***Klauzula zrzeczenia się odpowiedzialności***
+Guardian Project tworzy aplikacje z myślą aby zapewnić Ci anonimowość i bezpieczeństwo. Protokoły, z których korzystamy są flagowymi osiągnięciami technlogii bezpieczeństwa. Wciąż udoskonalamy nasze oprogramowanie aby wyeleiminować choćby najmniejsze niedociągnięcią gdyż żadna technologia nie jest w 100% pozbawiona możliwości wystąpienia błędu. Dla zapewnienia największego bezpieczeństwa i zachowania anonimowości uzytkownik powinien postępować zgodnie z wskazanymi praktykami. Możesz znaleźć więcej informacji w temacie właściwych praktyk/zachowań w kwestiach zachowania bezpieczeństwa na stronie https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

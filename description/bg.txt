@@ -1,0 +1,29 @@
+Чатвай Сигурно С Весекиго, Навсякъде
+
+Безплатени и неограничени чатове с приятели ползващи Facebook Chat, Google Chat и други! Съвместим с Android, iPhone, Mac, GNU/Linux и PC.
+
+PC Mag “100те Най-добри Програми за Android на 2013та.” 
+
+★ НАПЪЛНО БЕЗПЛАТНИ, НЕОГРАНИЧЕНИ ЧАТОВЕ: Без такси, винаги. Чатвай цял ден с приятели без значение дали са на съседната улица или през океана.
+★ ЧАТВАЙ СИ С ВСЕКИГО, НАВСЯКЪДЕ: Чатвай си с твоите приятели ползващи Google Chat (GChat), Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber и други!
+★ РАБОТИ НА ВСЯКА ПЛАТФОРМА: Android с Gibberbot, iPhone с ChatSecure, Mac с Adium, Linux с Jitsi, Windows с Pidgin, и други!
+★ НЕПОБЕДИМА СИГУРНОСТ: Пазим съобщенията ти 100% неприкосновени, използвайки най-доброто Off-The-Record (OTR) криптиране. Твоите дискусии немогат да бъдат записани или пресрешнати от никого. ЗАБЕЛЕЖКА: Тези методи за сигурност са ефективни само ако приятелите ти използват съвместима OTR програма като Gibberbot, ChatSecure, Adium или Pidgin.
+★ БЕЗ ПОДСЛУШВАНЕ: Твоята комуникация е криптирана, така че никой не може да подслушва дискусиите ти. Съобщенията ти не се запазват на диска, така че други "любопитни" програми немогат да ги докопат.
+★ АВТОМАТИЧНО ДОБАВЯ ПРИЯТЕЛИТЕ ТИ: Щом се впишеш в свой профил, включително в Google и Facebook, контактите ти се добавят мигновено.
+★ ВГРАДЕНО ЗАБАВЛЕНИЕ: Включени са множество теми и може да създадеш свои собствени тапети. Може да зададеш забавни лични икони за своите приятели.
+★ ЧАТ, КОЙТО НЕМОЖЕ ДА БЪДЕ БЛОКИРАН: Използвай Gibbberbot с нашата Орбот добавка, за да заобиколиш почити всички блокади, мрежови ограничения и черни списъци. Изтегли Орбот добавката, разработена от Тор: http://goo.gl/lpnda
+★ ПИШИ, НА ВСЯКАКЪВ ЕКРАН: Gibberbot e проектиран да изглежда страхотно на всеки Android телефон, таблет или фаблет.
+★ БЕЗ РЕКЛАМИ: Търсим твоята любов, а не парите ти.
+★ ЛЕСЕН НАРЪЧНИК: Gibberbot е лесен за ползване. Натисни тук за бърз, интерактивен наръчник: https://guardianproject.info/howto/chatsecurely
+★ ГОВОРИМ ТВОЯ ЕЗИК: Gibberbot e достъпен за всички приятели, които говорят:
+Arabic (العربية), Bulgarian (Български), Chinese (中文简体), Czech (Čeština), Danish (Dansk), Dutch (Nederlands), English, Esperanto, Farsi (فارسی), French (Français), German (Deutsch), Greek (Ελληνικά), Hungarian (Magyar Nyelv), Italian (Italiano), Japanese (日本語) Korean (조선말), Norwegian (Norsk), Portuguese (Português), Russian (Русский), Spanish (Español), Slovak (Slovenčina), Swedish (Svensk), Tibetan (བོད་སྐད།), Turkish (Türkçe), and Vietnamese (Tiếng Việt).
+Езикът ти не е сред изброените? Присъедини се и преведи програмата: https://www.transifex.com/projects/p/gibberbot
+***Научи Повече***
+★ ЗА НАС: Guardian Project е група разработчици, които създават сигурни мобилни програми, които са с отворен код и за по-добро бъдеще.
+★ НАШИЯТ УЕБСАЙТ: GuardianProject.info
+★ В TWITTER: https://twitter.com/guardianproject
+★ ОТВОРЕН КОД: Gibberbot е свободен софтуер. Може да разгледаш кода, или да се присъединиш към общноста, за да помогнеш да направим Gibberbot още по-добър: https://github.com/guardianproject/Gibberbot
+★ ПИШИ НИ: Липсва любимата ти функция? Намери дразнещ бъг? Моля те, кажи ни! С радост искаме да чуем от теб. Прати ни имейл на: root@guardianproject.info
+***Важно да се знае***
+Guardian Project прави програми проектирани да пазят твоята сигурност и анонимност. Протколите, които използваме са общоприети като най-добрите и сигурни технологии. Докато постоянно обновяваме софтуера, за да се борим с най-новите заплахи и да елеминараме бъгове, никоя технология не 100% непробиваема. За максимална сигурност и анонимност потребителите трябва да следват препоръчителните съвети. Може да намериш наръчник по тези теми на https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

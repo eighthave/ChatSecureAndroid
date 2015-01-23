@@ -1,0 +1,30 @@
+Dilediğiniz Kişiyle, Dilediğiniz Yerde Güvenli Sohbet Edin
+
+Facebook Chat, Google Chat ve daha birçoğu üzerindeki arkadaşlarınızla özgür ve sınırsız mesajlaşma! Android, iPhone, Mac, Linux veya PC ile çalışır.
+
+PC Mag "2013 yılı 100 en iyi Android Uygulamaları." 
+
+★ TAMAMEN ÖZGÜR, SINIRSIZ MESAJLAŞMA: Tamamen ücretsiz. Caddenin ya da okyanusun diğer tarafındaki arkadaşlarınla tüm gün sohbet et.
+★DİLEDİĞİNİZ KİŞİYLE, DİLEDİĞİNİZ YERDE SOHBET EDİN: Google Chat (GChat), Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber, ve pek çok diğer programı kullanarak arkadaşlarınızla sohbet edin!
+★ TÜM SİSTEMLERDE ÇALIŞIR: Android'de Gibberbot, iPhone'da ChatSecure, Mac'te Adium, Linux'da Jitsi, Windows'da Pidgin, and daha fazlası!
+★ RAKİPSİZ GİZLİLİK: Son teknoloji kayıt-dışı (Off-The-Record, ORT) şifrelemesi ile mesajlarınız %100 gizli tutuluyor. Görüşmeleriniz başka kişiler tarafından kayıt altına alınamaz ve dinlenemez. NOTE: Bu güvenlik önlemleri ancak karşınızdaki kullanıcı da bir OTR uyumlu program kullandığında geçerlidir: Gibberbot, ChatSecure, Adium veya Pidgin.
+★ GÖZETLEME YOK: Bağlantınız şifreli olduğundan kimse görüşmelerinizi gizlice dinleyemez. Mesajlar sistem hafızasında dahi tutulmadığından bilgi çalan uygulamar dahi işe yaramaz.
+★ ARKADAŞLARINIZI KOLAYCA EKLEYİN: Herhangi bir hesabınızla, Google veya Facebook, giriş yaptığınızda bağlantılarınız hemen eklenecektir.
+★ EĞLENCE DAHİL: Pek çok görsel tema içinde yüklüdür, ve dilerseniz kendi arkaplan görüntünüzü oluşturabilirsiniz. Arkadaşlarınıza sevimli küçük resimler de gönderebilirsiniz!
+★ SOHBETİNİZ ENGELLENEMEZ: Gibberbot'u sadece bizim gizlilik eklentimiz Orbot ile birlikte kullanarak neredeyse tüm güvenlik duvarlarını, ağ sınırlandırmalarını ve karalisteleri aşabilirsiniz. Tor tarafından geliştirilen ücretsiz Orbot eklentisi şu adresten indirebilirsiniz: http://goo.gl/lpnda
+★ DİLEDİĞİNİZ EKRANDAN SOHBET EDİN: Gibberbot tüm Android telefonları, tabletleri, or phabletlerinde güzel görünür.
+★ REKLAM YOK: Biz sizin paranızı değil sevginizi istiyoruz.
+★ KOLAY KULLANIM: Gibberbot'u kullanmak çok kolay. Hızlı ve interaktif kullanım kılavuzu için lütfen şu adresi ziyaret edin: https://guardianproject.info/howto/chatsecurely
+★ DİLİNİZİ KONUŞUYORUZ: Gibberbot şu dillerde konuşan arkadaşlar arasında kullanılabilir:
+Arabic (العربية), Chinese (中文简体), Czech (Čeština), Danish (Dansk), Dutch (Nederlands), English, Esperanto, Farsi (فارسی), French (Français), German (Deutsch), Greek (Ελληνικά), Hungarian (Magyar Nyelv), Italian (Italiano), Japanese (日本語) Korean (조선말), Norwegian (Norsk), Portuguese (Português), Russian (Русский), Spanish (Español), Slovak (Slovenčina), Swedish (Svensk), Tibetan (བོད་སྐད།), Turkish (Türkçe), and Vietnamese (Tiếng Việt).
+İstediğiniz dil yok mu? Bize katılın ve uygulamayı kendi dilinize çevirmemize yardımcı olun:
+https://www.transifex.com/projects/p/gibberbot
+***Daha fazla bilgi edinin***
+★ HAKKIMIZDA: Guardian Projesi daha iyi bir gelecek için güvenli mobil uygulamalar ve açık kaynak kodları yazan bir grup yazılımcıdan oluşur.
+★ WEB SİTEMİZ: http://GuardianProject.info
+★ TWİTTER ADRESİMİZ: https://twitter.com/guardianproject
+★ AÇIK KAYNAK KODU: Gibberbot ücretsiz bir uygulamadır. Kaynak kodumuza bakabilir, ve Gibberbot'u geliştirmek için destek grubuna katılabilirsiniz:  https://github.com/guardianproject/Gibberbot
+★ BİZE YAZIN: İstediğiniz bir özellik eksik mi? Uygulamada bir hata mı buldunuz? Lütfen bize bildirin! Sizden geri bildirim almak bizi çok mutlu eder. Bize e-posta yazabilirsiniz: root@guardianproject.info 
+***Yasal uyarı***
+Guardian Projesi güvenliğinizi ve mahremiyetinizi korumak için uygulamalar geliştirir. Bunun için güvenlik teknolojileri sektöründeki en gelişmiş iletişim kurallarını kullanmaktayız. Yeni tehditleri engellemek ve hataları azaltmak için yazılımı sürekli geliştirsek de hiçbir teknoloji %100 kusursuz değildir. Maximum güvenlik ve gizlilik için kullanıcılar en iyi yöntemleri kullanarak kendi güvenliklerini sağlayabilirler. Bu konulardaki temel bilgiye şu adresten ulaşabilirsiniz:  https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Şifreli Mesajlar, Facebook Chat, Google Chat, GChat, GTalk, Gizli Mesaj, Gizli Mesajlar, Gizli Mesajlaşma, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Kayıt-dışı, Off-the-Record (OTR), Pidgin, Private Chat, Özel Mesaj, Özel Mesajlaşma, Gizli Sohbet, Gizli Mesaj, Gizli Mesajlaşma, Güvenli Mesaj, Güvenli Mesajlaşma, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

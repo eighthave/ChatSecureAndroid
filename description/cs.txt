@@ -1,0 +1,29 @@
+Chatuje bezpečně s kýmkoliv, kdekoliv
+
+Neomezené zasílání zpráv zdarma s vašimi přáteli přes Facebook Chat, Google Chat a více! Pro Android, iPhone, Max, Linux nebo PC.
+
+PC Mag “100 Best Android Apps of 2013.” 
+
+★ ABSOLUTNĚ BEZPLATNÉ, NEOMEZENÉ ZASÍLÁNÍ ZPRÁV: Nikdy žádne poplatky. Chatujte celý den s vašimi přáteli přes ulici nebo přes oceán.
+★ CHATUJTE S KÝMKOLIV, KDEKOLIV: Chatujte s vašimi přáteli na Google Chat (GChat), Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber a dalších!
+★ FUNGUJE NA KAŽDÉ PLATFORMĚ: Android s Gibberbot, iPhone s ChatSecure, Mac s Adium, Linux s Jitsi, Windows s Pidgin, a další!
+★ NEPORAZITELNÉ SOUKROMÍ: Vaše zprávy držíme 100% soukromé za použití nejmodernější Off-The-Record (OTR) encryption. Vaše konverzace nemohou být zaznamenávány nebo zastaveny kýmkoliv. POZNÁMKA: Tato bezpečnostní opatření platí pouze tehdy, když váš přítel používá kompatibilního OTR klienta jako je ChatSecure, Gibberbot, Audium nebo Pidgin.
+★ ŽÁDNÉ ŠPEHOVÁNÍ: Vaše spojení je šifrované takže nikdo nemůže špehovat vaší konverzaci. A žádné zprávy nejsou uložené v paměti systému, takže je žádné zvědavé aplikace nemohou najít.
+★ AUTOMATICKY PŘIDÁ VAŠE PŘÁTELÉ: Když se přihlásíte s jakýmkoliv účtem, včetně Google a Facebooku, vaše kontakty se okamžitě přidají.
+★ VESTAVĚNÁ ZÁBAVA: Je zahrnuto více vzhledů a můžete si vytvořit vlastní tapetu. Vaši přátelé mohou získat také osobní roztomilé ikonky!
+★ CHAT KTERÝ NEMŮŽE BÝT BLOKOVÁN: Použijte ChatSecure s naším ochranným pluginem Orbot, pro obejití téměř všech firewallů, omezení sítí a blacklistů. Získejte Orbot plugin, poháněn Tor: http://goo.gl/lpnda
+★ CHATUJTE NA JAKÉKOLIV OBRAZOVCE: ChatSecure je navrženo tak, aby bylo krásné na kterémkoliv Android telefonu, tabletu či phabletu.
+★ BEZ REKLAM: Chceme vaši přízeň, ne vaše peníze.
+★ JEDNODUCHÝ NÁVOD: ChatSecure je jednoduché na používání.Pro rychlého a interaktivního průvodce klikněte zde: https://guardianproject.info/howto/chatsecurely
+★ MLUVÍME VAŠÍM JAZYKEM: Gibberbot je dostupný přátelům, co mluví:
+Arabsky (العربية), Čínsky (中文简体), Česky (Čeština), Dánsky (Dansk), Holandsky (Nederlands), Anglicky, Estonesky, Farsi (فارسی), Francouzsky (Français), Německy (Deutsch), Řecky (Ελληνικά), Maďarsky (Magyar Nyelv), Italsky (Italiano), Japonsky (日本語) Korejsky (조선말), Norsky (Norsk), Portugalsky (Português), Rusky (Русский), Španělsky (Español), Slovensky (Slovenčina), Švédsky (Svensk), Tibetsky (བོད་སྐད།), Turecky (Türkçe), a Vietnamsky (Tiếng Việt).
+Nevidíte svůj jazyk? Přidejte se a pomozte přeložit aplikaci: https://www.transifex.com/projects/p/gibberbot
+***Zjistěte více***
+★ O NÁS: Guardian Project je skupina vývojářů která dělá bezpečné mobilní aplikace a open-source kód pro lepší zítřky.
+★ NÁŠ WEB: GuardianProject.info
+★ NA TWITTERU: https://twitter.com/guardianproject
+★ OPEN-SOURCE: ChatSecure je otevřený software. Můžete se podívat na náš zdrojový kod nebo se připojit ke komunitě a pomoci udělat ChatSecure ještě lepší: https://github.com/guardianproject/Gibberbot
+★ NAPIŠTĚ NÁM: Chybí vám vaše oblíbená funkce? Našli jste jakoukoliv chybu? Prosím kontaktujte nás! Rádi bychom to od vás slyšeli. Pošlete nám email na: root@guardianproject.info
+***Prohlášení***
+Guardian Project dělá aplikace, které jsou navrženy tak, aby chránily vaši bezpečnost a anonymitu. Protokoly které používáme jsou obecně považovány za zabezpečenou technologii. I když neustále software aktualizujeme pro boj s nejnovějšími bezpečnostními hrozbami a odstraňujeme chyby, žádná technologie není 100% spolehlivá. Pro maximální bezpečnost a anonymitu uživatelé musejí využívat osvědčené postupy, aby byli v bezpečí. Můžete si do začátku najít dobré informace o těchto tématech na https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

@@ -1,0 +1,29 @@
+לצטט בביטחון עם כל אחד בכל מקום.
+
+העברת מסרים וצאט ללא הגבלה ובחינם עם החברים באמצעות מערכת הצאט של פייסבוק, גוגל צאט, ועוד! האפליקציה פועלת עם אנדרויד, אייפון, מאק ולינוקס או על גבי פי.סי.
+
+פי.סי. מגזין: "אחד מתוך 100 האפליקציות הטובות של 2013" 
+
+★ העברת מסרים חינם ללא הגבלה: אין חיובים. נקודה. אפשר לצטט עם חברים מעבר לרחוב או מעבר לים.
+★ לצטט עם כל אחד בכל מקום: תצטטו עם חברים בצאט של גוגל (G Chat), הצאט של פייסבוק, VKontantke, Yandex, Hyves, Odnoklassniki, Livejournal, Jabber ועוד!
+★ פועל בכל פלטפורמה: אנדרויד עם Gibberbot, אייפון עם Chatsecure, מאק עם Adium, לינוקס עם Jitsi, ווינדוס עם Pidgin, ועוד!
+★ פרטיות שאין שנית לה: אנחנו שומרים על המסרים שלכם עם 100% פרטיות באמצעות הצפנת (Off the Record (OTR. לא ניתן לרשום או ליירט את המסרים שלכם. הערה: האמור לעיל נכון כל עוד שחבריך עושים שימוש בקליינט תואם OTR כגון: Gibberbot, ChatSecure, Adium, או Pidgin.
+★ אין חיטוטים: החיבור עצמו מוצפן כך שאף אחד לא יכול לעקוב אחרי השיחות שלכם. המסרים לא נשמרים במערכת כך שאפליקציות חטטניות לא יכולות לאתר אותם.
+★ המערכת מוסיפה את החברים אוטומטית: כאשר את/ה מתחבר מכל חשבון, כולל גוגל ופייסבוק, אנשי הקשר שלכם מתווספים אוטומטית.
+★ הכיף כבר בפנים: המערכת כוללת מספר תימות וניתן ליצור טפטים משלכם. גם החברים מקבלים צלמיות מדליקות!
+★ לא ניתן לחסום לכם את הצאט: תעשו שימוש ב- Gibberbot עם תוסף הפרטיות Orbot על מנת לעקוף כמעט כל פיירוול, חסימות רשת ורשימות "שחורות". ניתן להוריד את התוסף Orbot, המתבסס על Tor בכתובת: http://goo.gl/lpnda
+★  צאט תואם כל מסך: Gibberbot תומך בטאבלטים, טלפונים ופאבלטים.
+★ ללא פרסומות: אנו רוצים את אהבתכם לא את כספכם.
+★  הדרכה פשוטה: השימוש ב- Gibberbot הוא קל. לחצו כאן לקבלת הדרכה מהירה ואינטראקטיבית: https://guardianproject.info/howto/chatsecurely
+★ אנחנו מדברים את השפה שלכם: Gibberbot  תומך:
+Arabic (العربية), Chinese (中文简体), Czech (Čeština), Danish (Dansk), Dutch (Nederlands), English, Esperanto, Farsi (فارسی), French (Français), German (Deutsch), Greek (Ελληνικά), Hungarian (Magyar Nyelv), Italian (Italiano), Japanese (日本語) Korean (조선말), Norwegian (Norsk), Portuguese (Português), Russian (Русский), Spanish (Español), Slovak (Slovenčina), Swedish (Svensk), Tibetan (བོད་སྐད།), Turkish (Türkçe), and Vietnamese (Tiếng Việt).
+לא רואים את השפה שלכם? תצטרפו ותעזרו לנו לתרגם את האפליקציה: https://www.transifex.com/projects/p/gibberbot
+***תלמדו עוד***
+★ אודותינו: פרויקט גארדיאן מורכב מקבוצת מפתחים אשר מפתחים אפליקציות מאובטחות לנייד על בסיס קוד פתוח על מנת ליצור עתיד טוב יותר לכולנו.
+★ האתר שלנו: GuardianProject.info
+★ טוויטר: https://twitter.com/guardianproject
+★ קוד פתוח: Gibberbot היא תוכנה חופשית. ניתן לבחון את קוד המקור או להצטרף לקהילה על מנת להפוך את Gibberbot לעוד יותר טוב: https://github.com/guardianproject/Gibberbot
+★ תכתבו לנו: חסרים פיצ'רים? יש באגים? ספרו לנו! תיצרו איתנו קשר: root@guardianproject.info
+***הצהרה***
+פרויקט גארדיאן מפתח אפליקציות שנועדו לשמור על הביטחון והאנונימיות שלכם. הפרוטוקולים שאנו עושים בהם שימוש נחשבים לטובים ביותר בתחומם. למרות שאנחנו כל הזמן מעדכנים ומשפרים את התוכנה על מנת להתמודד עם סכנות ובאגים אין טכנולוגיה שהיא 100% בטוח. על מנת לשמור על מירב הבטחון ואנונימיות ראוי לעשות שימוש ב- best practices כדי להבטיח את בטחונכם. ניתן למצוא מדריך לפעולות אלו בכתובת: https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

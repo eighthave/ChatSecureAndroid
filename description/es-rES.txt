@@ -1,0 +1,30 @@
+Converse de forma segura con cualquier persona y en cualquier lugar
+
+Mensajería gratis e ilimitada con sus amigos en Facebook Chat , Google Chat y ¡más! Funciona en Android, iPhone, Mac, Linux y PC.
+
+PC Mag “Dentro del TOP 100 de las mejores aplicaciones para Android 2013.” 
+
+★ COMPLETAMENTE GRATIS, ENVÍO ILIMITADO DE MENSAJES: Sin coste alguno. Converse durante todo el día con sus amigos, desde la calle o a través del océano.
+★ CONVERSE CON CUALQUIER PERSONA, EN CUALQUIER LUGAR: Hable con sus amigos en Google Chat, Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber y ¡más!
+★ FUNCIONA EN TODAS LAS PLATAFORMAS: Android con Gibberbot, iPhone con ChatSecure, Mac con Adium, Linux con Jitsi, Windows con Pidgin y ¡más!
+★ PRIVACIDAD: Mantenemos sus mensajes 100% privados utilizando cifrado Off-The-Record (OTR) . Sus conversaciones no podrán ser interceptadas por nadie. NOTA: Estas medidas de seguridad son posibles solo si sus amigos utilizan un cliente compatible con OTR como Gibberbot, ChatSecure, Adium or Pidgin.
+★ IMPOSIBILIDAD DE INTERCEPTACIÓN: Su conexión se cifra de forma que nadie puede espiar sus conversaciones. Además, los mensajes nunca se almacenan en memoria, haciendo imposible extraerlos.
+★ AÑADE AUTOMÁTICAMENTE A SUS AMIGOS: Cuando inicie sesión con cualquier cuenta, incluyendo Google y Facebook, sus contactos se añaden inmediatamente.
+★ DIVERSIÓN INTEGRADA: Se incluyen distintos temas y el usuario puede crear sus propios fondos de pantalla. ¡Sus amigos también pueden recibir emoticonos!
+★ CONVERSACIONES QUE NO SE PUEDEN BLOQUEAR: Use Gibberbot con nuestro plugin Orbot para evitar cortafuegos, restricciones de red y listas negras. Obtenga el plugin Orbot, basado en Tor, en http://goo.gl/lpnda
+★ CONVERSE EN CUALQUIER DISPOSITIVO: Gibberbot se ha diseñado para ser atractivo en cualquier teléfono Android, tablet o phablet.
+★ SIN PUBLICIDAD: Queremos tu aprecio, no tu dinero.
+★ TUTORIAL SENCILLO: Gibberbot es fácil de utilizar. Haga clic aquí para acceder a un fácil y rápido tutorial: https://guardianproject.info/howto/chatsecurely
+★ HABLAMOS TU IDIOMA: Gibberbot está disponible para usuarios que hablan:
+Árabe (العربية), Chino (中文简体), Checo (Čeština), Danés (Dansk), 	Neerlandés (Nederlands), Inglés, Esperanto, Farsi (فارسی), Francés (Français), Alemán (Deutsch), Griego (Ελληνικά), Húngaro (Magyar Nyelv), Italiano (Italiano), Japonés (日本語), Coreano (조선말), Noruego (Norsk), Portugués (Português), Ruso (Русский), Español, Eslovaco (Slovenčina), Sueco (Svensk), Tibetano (བོད་སྐད།), Turco (Türkçe) y Vietnamita (Tiếng Việt).
+¿Gibberbot no se encuentra traducido a tu idioma? Ayúdanos a traducirlo: https://www.transifex.com/projects/p/gibberbot
+***Saber más***
+★ ACERCA DE NOSOTROS: Guardian Project es un grupo de desarrolladores que crean aplicaciones seguras para dispositivos móviles y escriben código fuente abierto para un futuro mejor.
+★ NUESTRA PÁGINA WEB: GuardianProject.info
+★ EN TWITTER: https://twitter.com/guardianproject
+★ CÓDIGO ABIERTO: Gibberbot es software libre. Puedes mirar el código fuente o ser parte de la comunidad y ayudar a mejorarlo:
+https://github.com/guardianproject/Gibberbot
+★ CONTÁCTENOS: ¿Cree que deberíamos añadir una nueva función? ¿Encontró un error? ¡Por favor contáctenos! Envíenos un e-mail a root@guardianproject.info
+***Aviso de declinación de responsabilidades***
+Guardian Project crea aplicaciones diseñadas para garantizar su seguridad y anonimato. Los procolos que utilizamos se consideran dentro del estado del arte en seguridad. No obstante, a pesar de que estamos continuamente actualizando nuestro software para mitigar las últimas amenazas y eliminar errores, ninguna tecnología es 100% infalible. Así, para garantizar los máximos niveles de seguridad y anonimato, los usuarios deben seguir determinadas prácticas. Puede consultar https://securityinabox.org para obtener una introducción a esos hábitos.
+Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

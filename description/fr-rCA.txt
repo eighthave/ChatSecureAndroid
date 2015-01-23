@@ -1,0 +1,29 @@
+Clavardez en toute sécurité avec n\u2019importe qui, n\u2019importe où
+
+Clavardez sans limite et gratuitement avec vos amis sur Facebook, Google et plus! Fonctionne sous Android, iPhone, Mac, Linux ou PC.
+
+« Les 100 meilleurs applis pour Android de 2013 » de PC Mag. 
+
+★ MESSAGERIE ENTIÈREMENT GRATUITE ET ILLIMITÉE : sans jamais de frais. Clavardez toute la journée avec vos amis, de l\u2019autre côté de la rue ou par delà l\u2019océan.
+★ CLAVARDEZ AVEC N\u2019IMPORTE QUI, N\u2019IMPORTE OÙ : clavardez avec vos amis sur le clavardage Google (GChat), le clavardage Facebook, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber, et plus !
+★ FONCTIONNE SUR TOUTES LES PLATEFORMES : Android avec Gibberbot, iPhone avec ChatSecure, Mac avec Adium, Linux avec Jitsi, Windows avec Pidgin, et plus!
+★ CONFIDENTIALITÉ INCOMPARABLE : nous préservons la confidentialité de vos messages à 100 % en utilisant un chiffrement (OTR) de pointe. Vos conversations ne peuvent pas être enregistrées ou interceptées par qui que ce soit. NOTE : ces mesures de sécurité ne s\u2019 que si votre ami utilise un client compatible avec OTR comme Gibberbot, ChatSecure, Adium ou Pidgin.
+★ AUCUNE SURVEILLANCE DU TRAFIC : votre connexion est chiffrée et ainsi personne ne peut espionner votre conversation. Et les messages ne sont même pas conservés en mémoire système, donc introuvable pour les applis inquisitrices.
+★ AJOUTE AUTOMATIQUEMENT VOS AMIS : en vous connectant avec n\u2019importe quel compte incluant Google et Facebook, vos contacts sont ajoutés immédiatement.
+★ FUN INTÉGRÉ : plusieurs thèmes sont inclus et vous pouvez créer vos propres papiers peints personnalisé. Vos amis reçoivent aussi de jolies icônes personnalisées.
+★ UN CLAVARDAGE QUI NE PEUT PAS ÊTRE BLOQUÉ : utilisez Gibberbot avec notre addiciel de confidentialité Orbot pour contourner presque tous les coupe-feu, les restrictions du réseau et les listes noires. Obtenez l\u2019addiciel Orbot, propulsé par Tor : http://goo.gl/lpnda
+★ CLAVARDEZ SUR TOUS LES ÉCRANS : Gibberbot est conçu pour être beau sur tous les téléphones, tablettes ou téléphones-tablettes sous Android.
+★ SANS PUBLICITÉ : nous voulons votre amour, pas votre argent.
+★ TUTORIEL SIMPLE : Gibberbot est facile à utiliser. Cliquez ici pour une visite rapide et interactive : https://guardianproject.info/howto/chatsecurely
+★ NOUS PARLONS VOTRE LANGUE : Gibberbot est disponible pour nos amis parlant :
+l\u2019arabe (العربية), le chinois (中文简体), le tchèque (Čeština), le danois (Dansk), le néerlandais (Nederlands), l\u2019anglais (English), l\u2019espéranto (Esperanto), le farsi (فارسی), le français, l\u2019allemand (Deutsch), le grec (Ελληνικά), le hongrois (Magyar Nyelv), l\u2019 (Italiano), le japonais (日本語), le coréen (조선말), le norvégien (Norsk), le portugais (Português), le russe (Русский), l\u2019espagnol (Español), le slovaque (Slovenčina), le suédois (Svensk), le tibétain (བོད་སྐད།), le turc (Türkçe), et le vietnamien (Tiếng Việt).
+Vous ne voyez pas votre langue ? Rejoignez-nous et aidez-nous à traduire l\u2019appli : https://www.transifex.com/projects/p/gibberbot
+*** En apprendre plus ***
+★ À PROPOS DE NOUS : Le projet Guardian est un groupe de développeurs produisant des applis mobiles sécuritaires et libres pour un lendemain meilleur.
+★ NOTRE SITE WEB : GuardianProject.info
+★ SUT TWITTER : https://twitter.com/guardianproject
+★ CODE SOURCE LIBRE : Gibberbot est un logiciel libre. Vous pouvez jeter un œil à notre code source ou rejoindre notre communauté pour aider à encore améliorer Gibberbot : https://github.com/guardianproject/Gibberbot
+★ ENVOYEZ-NOUS UN MESSAGE : Votre fonction favorite est manquante ? Vous avez trouvé un bogue ennuyeux ? Veuillez nous le dire! Nous aimerions que vous nous en fassiez part. Envoyez-nous un courriel : root@guardianproject.info
+*** Avis de non-responsabilité ***
+Le projet Guardian développe des applis conçues pour protéger votre sécurité et votre anonymat. Nous utilisons des protocoles de pointe largement reconnus comme technologie de sécurité. Bien que nous mettions continuellement nos logiciels à niveau pour combattre les dernières menaces et éliminer les bogues, aucune technologie n\u2019est infaillible à 100 %. Pour une sécurité et un anonymat maximaux, les utilisateurs doivent utiliser les meilleures pratiques pour se protéger. Vous pouvez trouver un bon guide de base sur ces sujets sur https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, messages chiffrés, clavardage Facebook, clavardage Google, GChat, GTalk, message caché, messages cachés, messagerie cachée, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, clavardage privé, messages privés, messagerie privée, clavardage secret, messages secrets, messagerie secrète, messages sécurisés, messagerie sécurisée, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

@@ -1,0 +1,29 @@
+Komunikujte bezpečne. S kýmkoľvek a kdekoľvek.
+
+Bezplatná a neobmedzená komunikácia s Vašimi priateľmi prostredníctvom chatov na Facebooku, Google a iných. Funguje na zariadeniach Android, iPhone, Mac, Linux alebo PC. 
+
+PC Mag "100 najlepších aplikácii roku 2013" 
+
+★ ÚPLNE ZADARMO A NEOBMEDZENE: Bez poplatkov. Komunikujte celý deň so svojimi priateľmi  na druhej strane ulice alebo aj oceánu.
+★ KOMUNIKUJTE S KÝMKOĽVEK A KDEKOĽVEK: Píšte si s priateľmi na Google chate (GChat), Facebooku, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber, a iných!
+★ FUNGUJE NA KAŽDEJ PLATFORME: Android s aplikáciou Gibberbot, iPhone s ChatSecure, Mac s Adium, Linux s Jitsi, Windows s Pidgin, a veľa ďalších!
+★ NEPRIESTRELNÉ SÚKROMIE: Zachovávame Vaše správy súkromné na 100% pomocou tzv. Off-The-Record (OTR) šifrovania. Vaša komunikácia vďaka tomu nemôže byť ďalej nikým zaznamenávaná alebo odchytávaná. POZNÁMKA: Tieto bezpečnostné opatrenia sa aplikujú len v prípade, že aj druhá strana používa aplikáciu kompatibilnú s OTR šifrovaním ako napr. Gibberbot, ChatSecure, Adium alebo Pidgin.
+★ UŽ ŽIADNE ŠPEHOVANIE: Vaše pripojenie je šifrované, takže nikto nemôže sledovať Vašu komunikáciu. Navyše správy sa neukladajú do pamäte telefónu a tak nemôžu byť nájdene zvedavými aplikáciami.
+★ VAŠE KONTAKTY BUDÚ PRIDANÉ AUTOMATICKY: Nech sa prihlásite do akéhokoľvek účtu, vrátane Google a Facebooku, Vaše kontakty sa načítajú automaticky.
+★ ZÁBAVA JE SÚČASŤOU BALENIA: Obsahuje množstvo predpripravených motívov, ale môžete si vytvoriť aj vlastné pozadia podľa svojho vkusu. Aj Vaši priatelia získajú svoje vlastné roztomilé ikonky!
+★ CHAT, KTORÝ NIKTO NEZASTAVÍ: Využívajte Gibberbot spolu s našim zásuvným modulom Orbot, ktorý Vám umožní obísť takmer každý firewall, obmedzenie siete alebo blacklist. Stiahnite si zásuvný modul Orbot, fungujúci na systéme Tor: http://goo.gl/lpnda
+★ CHATUJTE NA KAŽDEJ OBRAZOVKE: Gibberbot je prispôsobený tak, aby vyzeral dobre na každom telefóne, tablete, alebo tabletofóne s operačným systémom Android.
+★ BEZ REKLAMY: Žijeme z Vašej lásky, nie z Vašich peňazí.
+★ JEDNODUCHÉ POUŽÍVANIE: Používať Gibberbot je jednoduché. Tu si môžete pozrieť rýchly, interaktívny návod: https://guardianproject.info/howto/chatsecurely
+★ HOVORÍME VAŠIM JAZYKOM: Gibberbot je dostupný pre každého, kto rozpráva nasledujúcimi jazykmi: 
+Arabic (العربية), Chinese (中文简体), Czech (Čeština), Danish (Dansk), Dutch (Nederlands), English, Esperanto, Farsi (فارسی), French (Français), German (Deutsch), Greek (Ελληνικά), Hungarian (Magyar Nyelv), Italian (Italiano), Japanese (日本語) Korean (조선말), Norwegian (Norsk), Portuguese (Português), Russian (Русский), Spanish (Español), Slovak (Slovenčina), Swedish (Svensk), Tibetan (བོད་སྐད།), Turkish (Türkçe), and Vietnamese (Tiếng Việt).
+Nenašli ste ten svoj? Pridajte sa k nám a pomôžte nám preložiť túto aplikáciu: https://www.transifex.com/projects/p/gibberbot
+***Chcete vedieť viac?***
+★ O NÁS: Guardian Project je skupina vývojárov, ktorí vytvárajú bezpečné mobilné aplikácie a otvorený zdrojový kód pre lepšie zajtrajšky.
+★ NAŠA WEBOVÁ STRÁNKA: GuardianProject.info
+★ MÁME AJ TWITTER: https://twitter.com/guardianproject
+★ OTVORENÝ ZDROJOVÝ KÓD: Gibberbot je bezplatný softvér. Môžete si prezrieť náš zdrojový kód, alebo sa pripojiť k našej komunite a pomôcť urobiť Gibberbot ešte lepším: https://github.com/guardianproject/Gibberbot
+★ NAPÍŠTE NÁM: Chýba Vám Vaša obľúbená funkcia? Našli ste otravnú chybu? Povedzte nám o tom! Radi si to vypočujeme. Napíšte nám e-mail na: root@guardianproject.info
+***Vyhlásenie***
+The Guardian Project vyvíja aplikácie, ktoré sú navrhnuté tak, aby chránili Vaše súkromie a totožnosť. Systémové riešenia, ktoré využívame sú medzi bezpečnostnými technológiami považované za absolútnu špičku. Aj keď náš softvér neustále vylepšujeme v snahe bojovať proti najnovším bezpečnostným hrozbám, každá technológia je len taká inteligentná ako jej používateľ. Pre maximálnu bezpečnosť a ochranu Vašeho súkromia by ste si mali osvojiť spôsoby ako sa chrániť. Základy, ako na to, môžete nájsť na stránke https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

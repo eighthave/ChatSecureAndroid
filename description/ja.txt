@@ -1,0 +1,29 @@
+どこでも、誰とでも、安全にチャット
+
+Facebook チャット、Google チャット、その他で、お友達と無料で無制限のメッセージング! Android、iPhone、Mac、Linux、またはPCで動作します。
+
+PC Mag “100 Best Android Apps of 2013.” 
+
+★ 完全に無料、無制限のメッセージング: いつでも料金がかかりません。通りの向こう側、または海の向こうのお友達と一日中チャットしてください。
+★ どこでも、誰とでも、チャット: Google チャット (GChat)、Facebook チャット、VKontakte、Yandex、Hyves、Odnoklassniki、StudiVZ、Livejournal、Jabber、その他の友達とチャットしましょう!
+★ すべてのプラットフォーム上で動作: AndroidのGibberbot、iPhoneのChatSecure、MacのAdium、LinuxのJitsi、WindowsのPidgin、その他!
+★ 無敵のプライバシー: オフレコ (OTR) 暗号化技術を用いて、あなたのメッセージを100%プライベートに保持します。あなたの会話は記録されたり、誰かによって傍受することはできません。注: あなたの友人がGibberbot、ChatSecure、Adium、またはPidginのような、互換性のあるOTRクライアントを使用している場合のみ、これらのセキュリティ対策は適用されます。
+★ のぞき見されません: 接続が暗号化されているため、誰もあなたの会話をスパイすることはできません。詮索好きのアプリ対策に、メッセージはシステムのメモリに保存されません。
+★ あなたの友人を自動的に追加: GoogleやFacebookを含む、任意のアカウントでログインした時に、すぐに連絡先が追加されます。
+★ ビルトインの楽しみ: 複数のテーマが含まれていて、さらに独自の壁紙を作成することができます。あなたの友人もかわいい個人のアイコンを入手することができます!
+★ ブロックされないチャット: 私たちのプライバシー プラグイン Orbot で Gibberbot を使用すると、ほぼすべてのファイアウォール、ネットワークの制限、およびブラックリストをバイパスします。Tor を搭載した Orbot プラグインを入手してください http://goo.gl/lpnda
+★ 任意のスクリーンでチャット: どんな Android 携帯電話、タブレット、またはファブレットでも、Gibberbotは美しくなるように設計されています。
+★ 広告なし: 私たちはあなたのお金ではなく、あなたの愛が欲しいと思っています。
+★ イージーチュートリアル: Gibberbotは使いやすいです。クイックで、インタラクティブなウォークスルーについては、ここをクリックしてください: https://guardianproject.info/howto/chatsecurely
+★ あなたの言語で使えます: Gibberbotは次の言語を話す友人が利用可能です:
+Arabic (العربية), Chinese (中文简体), Czech (Čeština), Danish (Dansk), Dutch (Nederlands), English, Esperanto, Farsi (فارسی), French (Français), German (Deutsch), Greek (Ελληνικά), Hungarian (Magyar Nyelv), Italian (Italiano), Japanese (日本語) Korean (조선말), Norwegian (Norsk), Portuguese (Português), Russian (Русский), Spanish (Español), Slovak (Slovenčina), Swedish (Svensk), Tibetan (བོད་སྐད།), Turkish (Türkçe), and Vietnamese (Tiếng Việt).
+お使いの言語がありませんか? 私たちに参加して、アプリの翻訳を手伝ってください: https://www.transifex.com/projects/p/gibberbot
+***詳細はこちら***
+★ 私たちについて: ガーディアン プロジェクトは、より良い明日のために、安全なモバイル アプリおよびオープン ソース コードを作成する開発者のグループです。
+★ 私たちのWebサイト: GuardianProject.info
+★ Twitter: https://twitter.com/guardianproject
+★ オープンソース: Gibberbotはフリーソフトウェアです。あなたは私たちのソースコードを参照すること、またはコミュニティに参加してGibberbotをさらに良くすることができます: https://github.com/guardianproject/Gibberbot
+★ 私たちにメッセージを送ってください: あなたのお気に入りの機能が不足していませんか? 迷惑なバグを見つけませんでしたか? 私たちにご連絡ください! 私たちにあなたのご意見をお聞かせください。私たちにメールをお送りください: root@guardianproject.info
+***免責事項***
+ガーディアン プロジェクトは、あなたのセキュリティと匿名性を保護するように設計されたアプリを作成しています。私たちが使用しているプロトコルは、セキュリティ技術における最先端技術と広くみなされています。私たちは最新の脅威に対抗し、バグを排除するために常にソフトウェアをアップグレードしていますが、100%確実な技術はありません。最大限のセキュリティと匿名性のために、ユーザーは自分自身を安全に保つためのベストプラクティスを利用しなければなりません。これらのトピックに良い入門ガイドをここで見つけることができます https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

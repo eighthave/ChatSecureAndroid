@@ -1,0 +1,29 @@
+Sicher unterhalten, immer und überall
+
+Kostenlos und unbegrenzt mit Ihren Freunden auf Facebook, Google Chat u.v.m. unterhalten. Funktioniert mit Android, iPhone, Mac, Linux oder Windows.
+
+PC Mag »100 Best Android Apps of 2013.« 
+
+★ KOMPLETT GRATIS, UNBEGRENZTE NACHRICHTEN: Keine Kosten. Den ganzen Tag mit Ihren Freunden unterhalten, egal ob über die Straße oder über den Ozean.
+★ UNTERHALTEN MIT JEDEM, ÜBERALL: Mit Ihren Freunden unterhalten über Google Chat (GChat), Facebook Chat, VKontakte, Yandex, HyvesOdnoklassniki, StudiVZ, Livejournal, Jabber und mehr!
+★ FUNKTIONIERT AUF JEDER PLATTFORM: Android mit ChatSecure, iPhone mit ChatSecure, Mac mit Adium, Linux mit Jitsi, Windows mit Pidgin u.v.m.
+★ UNSCHLAGBARE PRIVATSPHÄRE: Wir sorgen dafür, dass Ihre Nachrichten 100% privat sind mit Hilfe von hochmoderner Off-The-Record (OTR) Verschlüsselung. Ihre Gespräche können von niemandem mitgeschnitten oder abgehört werden. HINWEIS: Diese Sicherheitsmaßnahmen greifen nur, wenn Ihre Freunde ein OTR-kompatibles Programm, wie Gibberbot, ChatSecure, Adium oder Pidgin verwenden.
+★ OHNE SCHNÜFFELN: Ihre Verbindung ist verschlüsselt so dass niemand Ihre Gespräche ausspionieren kann. Und die Nachrichten bleiben nicht im Systemspeicher, so dass keine neugierigen Apps sie finden können.
+★ FÜGT FREUNDE AUTOMATISCH HINZU: Wenn Sie sich mit einem Konto anmelden, Google und Facebook eingeschlossen, werden Ihre Kontakte sofort hinzugefügt.
+★ EINRICHTEN MIT SPASS: Mehrere Themen sind dabei und Sie können eigene Hintergründe erstellen. Ihre Freunde bekommen auch eigene pfiffige Symbole!
+★ UNTERHALTUNGEN, DIE NICHT BLOCKIERT WERDEN KÖNNEN: ChatSecure mit unserer Privatsphärenerweiterung-Orbot nutzen, um beinahe jede Firewall, Netzwerkbeschränkungen und Negativlisten zu umgehen. Die Orbot-Erweiterung, bereitgestellt von Tor, können Sie unter folgender Adresse erhalten: http://goo.gl/lpnda
+★ UNTERHALTUNGEN AUF JEDEM BILDSCHIRM: ChatSecure wurde entworfen, um auf jedem Android-Handy, -Tablet oder -Phablet gut auszusehen.
+★ WERBEFREI: Wir wollen Ihre Liebe, nicht Ihr Geld.
+★ EINFACH IN DER BENUTZUNG: Sie sind nur ein paar Klicks vom anonymen Surfen im Internet entfernt. Besuchen Sie für eine schnelle, interaktive Komplettlösung unsere Internetseite: https://guardianproject.info/howto/chatsecurely
+★ WIR SPRECHEN IHRE SPRACHE: ChatSecure ist für Freunde verfügbar, die folgende Sprachen sprechen:
+Arabic (العربية), Chinese (中文简体), Czech (Čeština), Danish (Dansk), Dutch (Nederlands), English, Esperanto, Farsi (فارسی), French (Français), German (Deutsch), Greek (Ελληνικά), Hungarian (Magyar Nyelv), Italian (Italiano), Japanese (日本語) Korean (조선말), Norwegian (Norsk), Portuguese (Português), Russian (Русский), Spanish (Español), Slovak (Slovenčina), Swedish (Svensk), Tibetan (བོད་སྐད།), Turkish (Türkçe), and Vietnamese (Tiếng Việt).
+Don’t see your language? Join us and help translate the app. Ihre Sprache ist nicht dabei? Besuchen Sie uns und helfen Sie beim Übersetzen der App: https://www.transifex.com/projects/p/chatsecureandroid/
+***Mehr Erfahren***
+★ ÜBER UNS: Guardian Projekt ist eine Gruppe von Entwicklern, die sichere mobile Apps und quelloffenen Code für ein besseres Morgen erstellen.
+★ UNSERE INTERNETSEITE: GuardianProject.info
+★ AUF TWITTER: https://twitter.com/guardianproject
+★ QUELLOFFEN: ChatSecure ist eine freie Anwendung. Sie können einen Blick darauf werfen oder der Gemeinschaft helfen ChatSecure noch besser zu machen: https://github.com/guardianproject/ChatSecureAndroid
+★ SCHREIBEN SIE UNS: Fehlt Ihre Lieblingsfunktion? Haben Sie einen lästigen Fehler gefunden? Bitte teilen Sie es uns mit. Wir würden uns freuen, von Ihnen zu hören. Senden Sie uns eine E-Mail an: root@guardianproject.info.
+***Haftungsausschluss***
+»The Guardian Projekt« erstellt Apps, die speziell zum Schutz Ihrer Sicherheit und Anonymität entwickelt wurden. Die von uns verwendeten Protokolle werden weithin als der Stand der Technik in der Sicherheitstechnologie angesehen. Während wir ständig unsere Anwendungen aktualisieren, um die neuesten Bedrohungen zu bekämpfen und Fehler zu beseitigen, ist keine Technologie zu 100% narrensicher. Für maximale Sicherheit und Anonymität müssen Benutzer - um sich zu schützen - Erfolgsmethoden verwenden. Eine gute Einführung zu diesen Themen können Sie auf folgender Seite finden: https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Gibberbot, Encrypted Messages, Verschlüsselte Nachrichten, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Versteckte Nachrichten, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), inoffizielle, vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung, Pidgin, Private Chat, Private Unterhaltung, Private Messages, Private Nachrichten, Private Messaging, Secret Chat, Geheime Unterhaltung, Secret Messages, Secret Messaging, Secure Messages, Sichere Unterhaltung, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

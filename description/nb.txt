@@ -1,0 +1,29 @@
+Chat sikkert med alle, overalt
+
+Fri ubegrenset meldingstjeneste for samtaler med dine venner på mange sosiale nettverk og kommunikasjonsprotokoller. Virker med Android, iPhone, Mac, Gnu/Linux eller PC.
+
+PC Mag “100 Best Android Apps of 2013.” 
+
+★ HELT FRI, UBEGRENSEDE LYNMELDINGER: Helt gratis, alltid. Prat hele dagen med dine venner hvor det måtte være og uavhengig av hvor de befinner seg i verden.
+★ PRAT MED HVEM SOM HELST, HVOR SOM HELST. Prat med dine venner på Jabber, Google Hangouts, Facebook, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, med mer!
+★ MULTIPLATTFORM-STØTTE: Gibberbot på Android, ChatSecure på iOS, Adium på OSX, Pidgin og jitsi på Gnu/Linux og Windows, med mer!
+★ UOVERTRUFFEN SIKKERHET: Vi besørger en 100% privat strøm av meldinger ved hjelp av Off-The-Record (OTR)-kryptering. Innholdet i dine samtaler kan ikke logges eller avlyttes av noen. BEMERKNING: Disse sikkerhetstiltakene trer bare i kraft når dine venner også benytter kompatible OTR-klienter som Gibberbot, Chatsecure, Adium, eller Pidgin.
+★ INGEN AVLYTTING: Din informasjonsstrøm er kryptert så ingen kan spionere på din samtale. Meldingene blir ikke lagret i systemminnet slik at andre applikasjoner kan prøve hente dem.
+★ LEGGER TIL DINE VENNER AUTOMATISK: Når du logger inn med vilkårlig konto, vil dine kontakter bli hentet fra kontaktlisten automatisk.
+★ GØY UT AV ESKEN: Mange drakter inkludert, og du kan også lage dine egne bagrunner. Dine venner får søte personlige ikoner også!
+★ LYNMELDINGER SOM IKKE LAR SEG BLOKKERE: Bruk Gibberbot med vår sikkerhetstillegg Orbot for å gå utenom omentrent alle brannmurer, nettverksrestriksjoner og svartelister. Last ned Orbot-tillegg med Tor, et system beregnet på å muliggjøre elektronisk anonymitet. http://goo.gl/lpnda
+★ VELG ENHET SELV: Gibberbot er designet for å ta seg bra ut på uansett Android- telefon eller brett.
+★ REKLAMEFRI: Vi er interessert i din affeksjon, ikke pengene dine.
+★ ENKEL VEILEDNING: Gibberbot er enkelt å bruke. Klikk her for en enkel og interaktiv gjennomgang: https://guardianproject.info/howto/chatsecurely
+★ Vi snakker ditt språk: Gibberbot er tilgjengelig for venner som snakker:
+Norsk, Svensk, Dansk, Arabisk (العربية) Kinesisk (中文简体), Tsjekkisk (Čeština), Flamsk (Nederlands), Engelsk (English), Esperanto, Farsisk (فارسی), Fransk (Français), Tysk (Deutsch), Gresk (Ελληνικά), Ungarsk (Magyar Nyelv), Italiensk (Italiano), Japansk (日本語), Koreansk (조선말), Portugisisk (Português), Russisk (Русский), Spansk (Español), Slovakisk (Slovenčina),Tibetansk (བོད་སྐད།), Tyrkisk (Türkçe), og Vietnamesisk (Tiếng Việt).
+Mangler ditt språk? Bli en av oss ved å hjelpe til med oversettelsen av programmet: https://www.transifex.com/projects/p/gibberbot
+***Lær mer***
+★ OM OSS: Guardian-prosjektet er en gruppe utviklere som lager sikre mobile applikasjoner og fri kildekode for en bedre fremtid.
+★ NETTSIDEN VÅR: GuardianProject.info
+★ PÅ TWITTER: https://twitter.com/guardianproject
+★ FRI PROGRAMVARE: Gibberbot er fri programvare. Du kan ta deg en titt på vår kildekode og om mulig bli med på laget for å gjøre Gibberbot best mulig: https://github.com/guardianproject/Gibberbot
+★ GI TILBAKEMELDING: Mangler vi din favorittfunksjon? Funnet en irriterende feil? Si ifra! Vi elsker å høre på våre brukere. Send oss en epost: root@guardianproject.info
+***Ansvarsfraskrivelse***
+Guardian-prosjektets mykvare er designet for ivareta din sikkerhet og beskytte din anonymitet. Protokollene vi bruker har anseelse som det beste som finnes av sikkerhetsteknologi. Selv om vi kontinuerlig oppdaterer vår programvare for å hanskes med trusselbildet slik det utvikler seg er ingen teknologi 100% idiotsikker. For maksimal sikkerhet og anonymitet må brukerne nyttegjøre seg av en del forhåndsregler for å ta vare på sin egen sikkerhet. Du finner en god introduksjons-guide for disse temaene på https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Facebook Chat, Google Chat, GChat, GTalk, Privatliv, Sikker kommunikasjon, Krypterte meldinger, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private meldinger, Sikre meldinger, Sikre lynmeldinger, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP, Datalagringsdirektivet

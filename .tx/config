@@ -14,3 +14,8 @@ host = https://www.transifex.com
 source_file = res/values/arrays.xml
 source_lang = en
 
+[chatsecureandroid.play-store]
+file_filter = description/<lang>.txt
+host = https://www.transifex.com
+source_file = description/source.txt
+source_lang = en

@@ -1,0 +1,29 @@
+Segurtasunez txateatu edonorekin, edonon
+
+Limiterik gabeko mezularitza askea Facebooken txata, Google txata eta gehio bidez! Android, iPhone, Mac, Linux edo PC batekin erabili daiteke.
+
+PC Mag “100 Best Android Apps of 2013.” 
+
+★ DOHAINIK ERABAT, LIMITERIK GABEKO MEZULARITZA: kargarik ez, inoiz. Txateatu egun osoan zure lagunekin kalean zehar edo ozeanoan zehar.
+★ EGIN BERRIKETA EDOZEINEKIN, EDONON: Egin berriketan Google Chag (GChat), Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber eta gehiagoko zure lagunekin!
+★ PLATAFORMA GUZTIETAN DABIL: Android-en Gibberbot, iPhone-n ChatSecure, Mac-en Adium, Linux-en Jitsi, Windows-.en Pidgin, eta gehiago!
+★ PRIBATUTASUN GARAIEZINA: Zure mezuak %100ean pribatuak mantentzen ditugu zifraketa konfidentzial (OTR) berrienak erabiliz. Zure elkarrizketak ezin ditu inork erregistratu edo eten. OHARRA: Segurtasun neurri hauek zure lagunek Gibberbot, ChatSecure, Adium, edo Pidgin bezalako OTR bezero bateragarri bat erabiltzen dutenean bakarrik aplikatzen dira.
+★ MIAKETARIK EZ: Zure konexioa zifratuta dago, beraz inork ezin du zure elkarrizketa miatu. Eta mezuak sistemako memoriatik kanpo mantentzen dira sudurra sartu nahi duten aplikazioetarako.
+★ ZURE LAGUNAK AUTOMATIKOKI GEHITZEN DIRA: Edozein konturekin saioa hasten duzunean, Google eta Facebook barne, zure kontaktuak berehala gehitzen dira.
+★ DIBERTSIOA BARNERATUTA: Itxura asko daude barnean, eta zure horma-paper propioak sortu ahal dituzu. Zure lagunek ikono pertsonal ederrak edukiko dituzte baita ere!
+★ BLOKEATU EZIN DAITEKEEN BERRIKETA: Gibberbot gure Orbot pribatutasun pluginarekin erabili suhezi, sare muga eta zerrenda beltz gehienak saihesteko. Eskuratu Tor erabiltzen duen Orbot plugina: http://goo.gl/lpnda
+★ EDOZEIN PANTAILAN BERRIKETAN: Gibberbot Android telefono, tablet edo phablet batean polita izateko diseinatu da.
+★ IRAGARKIRIK GABE: Zure maitasuna nahi duzu, ez zure dirua.
+★ TUTORIAL ERRAZA: Gibberbot erabiltzeko erraza da. Hemen klikatu gida elkarreragile eta azkar baterako: https://guardianproject.info/howto/chatsecurely
+★ ZURE HIZKUNTZAN HITZ EGITEN DUGU: Gibberbot ondoko hizkuntzak erabiltzen dituzten lagunentzako eskuragarri dago:
+Arabiera (العربية), Txinatarra (中文简体), Txekiarra (Čeština), Daniera (Dansk), Dutch (Nederlands), Ingelesa, Esperanto, Farsi (فارسی), Frantsesa (Français), Alemaniera (Deutsch), Grekera (Ελληνικά), Hungariarra (Magyar Nyelv), Italiarra (Italiano), Japoniera (日本語) Korearra (조선말), Norwegiarra (Norsk), Portugesa (Português), Errusiera (Русский), Gaztelera (Español), Slovak (Slovenčina), Swedish (Svensk), Tibetarra (བོད་སྐད།), Turkoa (Türkçe), eta Vietnamera (Tiếng Việt).
+Ez duzu zure hizkuntza ikusten? Etorri eta aplikazioa itzultzen lagundu: https://www.transifex.com/projects/p/gibberbot
+***Gehiago jakin***
+★ GURI BURUZ: Guardian Proiektua etorkizun hobe baterako mobiletako aplikazio seguruak eta iturburu kode irekia egiten duen garatzaile talde bat da.
+★ GURE WEBGUNEA: GuardianProject.info
+★ TWITTER-EN: https://twitter.com/guardianproject
+★ KODE IREKIA: Gibberbot software askea da. Begiratu gure iturburu kodea edo gure komunitatearekin bat egin Gibberbot oraindik hobea egiteko: https://github.com/guardianproject/Gibberbot
+★ IDATZIGUZU: Zure ezaugarri gogokoena falta zaigu? Arazo gogaikarririk topatu duzu? Zure berri izatea gustatuko litzaiguke! Eposta bidali: root@guardianproject.info
+***Oharra***
+Guardian proiektua zure segurtasuna eta anonimotasuna babesteko diseinatuta dauden aplikazioak egiten ditu. Erabiltzen ditugun protokoloak segurtasun teknologian punta-puntakoak direla onartuta dago. Arazkoak kentzeko eta mehatxu berrienak borrokatzeko gure software etengabe eguneratzen gauden arren, ez dago %100ean ziurra den teknologiarik. Segurtasun eta anonimotasun maximorako erabiltzaileek gomendatutako jardunak jarraitu behar dituzte, euren buruak salbu mantentzeko. Gai hauen inguruko sarrera on bat hemen topatu dezakezu: https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Mezu zifratuak, Facebook Chat, Google Chat, GChat, GTalk, Mezu izkutua, Mezu izkutuak, Ezkutuko mezularitza, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, zifraketa konfidentziala (OTR), Pidgin, Berriketa pribatua, Mezu pribatuak, Mezularitza pribatua, Berriketa sekretua, Mezu sekretuak, Mezularitza sekretua, Mezu seguruak, Mezularitza segurua, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

@@ -1,0 +1,29 @@
+Chat An Toàn Với Bất Cứ Ai, Nơi Nào
+
+Tin nhắn nhanh miễn phí, không giới hạn với bạn bè qua Facebook Chat, Google Chat & các dịch vụ khác! Chạy trên Android, iPhone, Mac, Windows, Linux.
+
+Được PC Mag tuyên dương "100 App Hay Nhất của Android năm 2013." 
+
+★ TIN NHẮN NHANH HOÀN TOÀN MIỄN PHÍ, KHÔNG GIỚI HẠN: không bao giờ bị tính tiền. Chat cả ngày với bạn bè ở bên kia đường hay ở bên kia đại dương.
+★ CHAT VỚI BẤT CỨ AI, BẤT CỨ NƠI NÀO: Chat với bạn bè qua Google Chat (GChat), Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber, và các dịch vụ khác!
+★ CHẠY TRÊN TẤT CẢ CÁC HỆ: Android với Gibberbot, iPhone với ChatSecure, Mac với Adium, Linux với Jitsi, Windows với Pidgin, v.v....
+★ KÍN ĐÁO KHÔNG AI BẰNG: Chúng tôi bảo vệ tin nhắn nhanh của bạn kín đáo 100% với phương thức mã hóa hiện đại Off-The-Record (OTR). Cuộc trò chuyện của bạn không thể bị ai chặn bắt hay bị lưu trữ. LƯU Ý: Các biện pháp an ninh này chỉ hiệu lực khi người bên kia đầu giây cũng dùng ứng dụng tương hợp với OTR như Gibberbot, ChatSecure, Adium hoặc Pidgin.
+★ KHÔNG BỊ RÌNH RẬP: Đường nối kết được mã hóa để không ai có thể rình rập, xem lén cuộc trò chuyện. Và ngay cả tin nhắn cũng không được giữ trong bộ nhớ của hệ thống để tránh các công cụ dòm ngó tìm ra.
+★ TỰ ĐỘNG THÊM NGƯỜI QUEN VÀO DANH SÁCH: Khi bạn đăng nhập vào các tài khoản, kể cả Google và Facebook, danh sách liên lạc của bạn được thêm vào liền.
+★ CÓ SẴN HÌNH ẢNH: Có đính kèm sẵn nhiều bộ định dạng nền và bạn có thể tự lập ra hình nền. 
+★ TIN NHẮN KHÔNG BỊ CHẶN ĐƯỢC: Dùng Gibberbot với công cụ Orbot để vượt tường lửa. Lấy plugin Orbot của Tor từ: http://goo.gl/lpnda
+★ CHAT TRÊN MỌI MÀN HÌNH: Gibberbot được trình bày đẹp mắt trên mọi điện thoại, tablet Android.
+★ KHÔNG QUẢNG CÁO: Chúng tôi muốn được sự mến mộ của bạn, chứ không muốn lấy tiền bạn.
+★ HƯỚNG DẪN DỄ HIỂU: Gibberbot dễ sử dụng. Bấm vào đây để xem hướng dẫn nhanh gọn, tường tận: https://guardianproject.info/howto/chatsecurely
+★ CHÚNG TÔI CÓ NGÔN NGỮ BẠN: Gibberbot có các ngôn ngữ sau đây: 
+Á-rập (العربية), Tàu (中文简体), Tiệp (Čeština), Đan Mạch (Dansk), Hòa Lan (Nederlands), Anh, Esperanto, Farsi (فارسی), Pháp (Français), Đức (Deutsch), Hy Lạp (Ελληνικά), Hungarian (Magyar Nyelv), Ý (Italiano), Nhật (日本語), Hàn (조선말), Na Uy (Norsk), Bồ Đào Nha (Português), Nga (Русский), Tây Ban Nha (Español), Slovak (Slovenčina), Thụy Điển (Svensk), Tây Tạng (བོད་སྐད།), Thổ (Türkçe), and Vietnamese (Tiếng Việt).
+Không thấy ngôn ngữ bạn? Tham gia với chúng tôi để chuyển ngữ ứng dụng này: https://www.transifex.com/projects/p/gibberbot
+***Tìm Hiểu Thêm***
+★ VỀ CHÚNG TÔI: Guardian Project là một nhóm soạn thảo thực hiện các ứng dụng an toàn cho thiết bị di động và sử dụng nguồn mở cho một tương lai tốt đẹp hơn.
+★ TRANG NHÀ: GuardianProject.info
+★ TWITTER: https://twitter.com/guardianproject
+★ NGUỒN MỞ: Gibberbot là phần mềm miễn phí. Bạn có thể xem mã nguồn, hoặc tham gia với chúng tôi để cải thiện Gibberbot: https://github.com/guardianproject/Gibberbot
+★ LIÊN LẠC VỚI CHÚNG TÔI: Bạn thấy thiếu chức năng gì cần thiết? Tìm được một lỗi? Xin báo cho chúng tôi biết! Rất mong được nghe từ bạn. Email cho chúng tôi: root@guardianproject.info
+***Lưu Ý Sử Dụng***
+Guardian Project soạn thảo các app để bảo vệ an toàn và giúp bạn ẩn danh. Phương thức chúng tôi dùng thuộc loại tân tiến nhất trong ngành an ninh. Tuy chúng tôi luôn nỗ lực cập nhật phần mềm để đương đầu với các mối đe dọa mới và để loại trừ các lỗi lập trình, không có kỹ thuật nào bảo đảm 100%. Để có được sự an ninh và ẩn danh tối đa, người sử dụng phải áp dụng các biện pháp an toàn nhất để bảo vệ an ninh của mình. Bạn có thể đọc tài liệu căn bản hướng dẫn về việc này trong trang https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, Encrypted Messages, Facebook Chat, Google Chat, GChat, GTalk, Hidden Message, Hidden Messages, Hidden Messaging, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, Private Chat, Private Messages, Private Messaging, Secret Chat, Secret Messages, Secret Messaging, Secure Messages, Secure Messaging, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP

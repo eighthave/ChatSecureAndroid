@@ -1,0 +1,29 @@
+Xategeu de forma segura amb qualsevol, a qualsevol lloc
+
+Missatges de franc de forma il·limitada amb els vostres amics al Facebook Xat, Google Xat i més! Funciona amb Android, iPhone, Mac, Linux o PC.
+
+PC Mag “100 Best Android Apps of 2013.” 
+
+* COMPLETAMENT DE FRANC, MISSATGES IL·LIMITATS: sense cost, mai. Xategeu tot el dia amb els vostres amics de l'altra banda del carrer o de l'oceà.
+* Xategeu amb tothom, a qualsevol lloc: xategeu amb els vostres amics al Google Xat (GChat), Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki, StudiVZ, Livejournal, Jabber i més!
+* FUNCIONA A TOTES LES PLATAFORMES: Android amb Gibberbot, iPhone amb ChatSecure, Mac amb Adium, Linux amb Jitsi, Windows amb Pidgin, i més!
+* PRIVACITAT IMBATIBLE: mantenim els vostres missatges 100% privats emprant el xifrat punter Off-The-Record (OTR). Les vostres converses no poden ser registrades per ningú. NOTA: aquestes mesures de seguretat només funcionen quan el vostre amic utilitza un client compatible amb OTR com Gibberbot, ChatSecure, Adium o Pidgin.
+* CAP TAFANERIA: la vostra connexió està xifrada i ningú pot espiar la vostra conversa. Els missatges no es desen ni a la memòria del dispositiu per evitar que cap aplicació maliciosa els pugui trobar.
+* AFEGEIX AUTOMÀTICAMENT ELS VOSTRES AMICS: quan entreu a qualsevol compte, inclosos Google i Facebook, s'afegeixen immediatament els vostres contactes.
+* ENTRETINGUT: inclou diversos temes i podeu crear els vostres propis fons de pantalla. Els vostres amics també tenen icones ben maques!
+* UN XAT QUE NO ES POT BLOQUEJAR: empreu Gibberbot amb el nostre connector de privacitat Orbot per evitar gairebé qualsevol tallafoc, restriccions de xarxa i llistes negres. Podeu obtenir el connector Orbot, que empra Tor a: http://goo.gl/lpnda
+* Xategeu a qualsevol pantalla: Gibberbot s'ha dissenyat per a quedar bé a qualsevol dispositiu Android, sigui telèfon, tauleta o híbrid.
+* SENSE ANUNCIS: volem el vostre amor, no els vostres diners.
+* TUTORIAL SIMPLE: és molt fàcil emprar el Gibberbot. Feu clic aquí per a un ràpid i interactiu repàs: https://guardianproject.info/howto/chatsecurely
+* PARLEM EL VOSTRE IDIOMA: Gibberbot és disponible pels amics que parlen:
+Àrab (العربية), Xinès (中文简体), Txec (Čeština), Danès (Dansk), Holandès (Nederlands), Anglès, Esperanto, Farsi (فارسی), Francès (Français), Alemany (Deutsch), Grec (Ελληνικά), Hongarès (Magyar Nyelv), Italià (Italiano), Japonès (日本語) Koreà (조선말), Norueg (Norsk), Portugès (Português), Rus (Русский), Espanyol (Español), Eslovac (Slovenčina), Suec (Svensk), Tibetà (བོད་སྐད།), Turc (Türkçe), i Vietnamita (Tiếng Việt).
+No trobeu el vostre idioma? Afegiu-vos i ajudeu-nos a traduir la aplicació: https://www.transifex.com/projects/p/gibberbot
+***Aprendre'n més***
+* QUAN A NOSALTRES: el Guardian Project és un grup de desenvolupadors que creen aplicacions mòbils segures i de codi obert per a un demà millor.
+* EL NOSTRE LLOC WEB: GuardianProject.info
+* A TWITTER: https://twitter.com/guardianproject
+* DE CODI OBERT: Gibberbot és programari lliure. Podeu fer un cop d'ull al codi font o unir-vos a la comunitat per ajudar a fer Gibberbot encara millor: https://github.com/guardianproject/Gibberbot
+* ENVIEU-NOS UN MISSATGE: trobeu a faltar alguna de les vostres funcionalitats preferides? Heu trobat un error ben molest? Expliqueu-nos-ho! Ens encanta saber de vosaltres. Envieu un correu electrònic a: root@guardianproject.info
+***Declinació de responsabilitats***
+El Guardian Project crea aplicacions que estan dissenyades per a protegir la vostra seguretat i anonimat. Els protocols que emprem estan àmpliament reconeguts com els punters en la tecnologia de seguretat. Tot i que estem constantment actualitzant el nostre programari per a combatre les últimes amenaces i arreglar errors, no existeix una tecnologia 100% segura. Per a una seguretat i anonimat màxims, els usuaris han portar a terme les millors pràctiques de cara a mantenir-se segurs. Podeu trobar una bona guia introductòria sobre aquests temes a https://securityinabox.org
+Adium, Cypherpunks, ChatSecure, missatges xifrats, Facebook Chat, Google Chat, GChat, GTalk, missatge ocult, missatges ocults, missatgeria oculta, Hyves, iMessage, Jabber, IMO, Jitsi, OAUTH, Off-the-Record (OTR), Pidgin, xat privat, missatges privats, missatgeria privada, xat secret, missatges secrets, missatgeria secreta, missatges segurs, missatgeria segura, TLS, Viber, vkontakte, WeChat, WhatsApp, XMPP
